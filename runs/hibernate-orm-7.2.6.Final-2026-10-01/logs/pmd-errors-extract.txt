@@ -1,0 +1,24 @@
+﻿
+> pmd.bat : [ERROR] at 
+sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\mai
+  n\java\org\hibernate\envers\boot\model\Attribute.java:14:77: Cannot 
+  parameterize java/lang/Cloneable with 
+>     + CategoryInfo          : NotSpecified: ([ERROR] at sour... type 
+arguments 
+     :String) [], RemoteException
+      + FullyQualifiedErrorId : NativeCommandError
+> [ERROR] at 
+sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org
+  \hibernate\envers\boot\model\Column.java:17:69: Cannot parameterize 
+  java/lang/Cloneable with [org.hibernate.envers.boot.model.Column], expecting 
+ 
+> [ERROR] at 
+sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org
+  \hibernate\envers\boot\model\Key.java:17:72: Cannot parameterize 
+  java/lang/Cloneable with [org.hibernate.envers.boot.model.Key], expecting  0 
+> [ERROR] at 
+sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org
+  \hibernate\envers\boot\model\TypeSpecification.java:19:109: Cannot 
+  parameterize java/lang/Cloneable with 
+
+

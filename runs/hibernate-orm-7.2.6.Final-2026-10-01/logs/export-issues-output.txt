@@ -1,0 +1,11 @@
+﻿pagina 1/5: 100 issues (acumulado: 100/456)
+pagina 2/5: 100 issues (acumulado: 200/456)
+pagina 3/5: 100 issues (acumulado: 300/456)
+pagina 4/5: 100 issues (acumulado: 400/456)
+pagina 5/5: 56 issues (acumulado: 456/456)
+REPORTED_TOTAL=456
+EXPORTED_TOTAL=456
+UNIQUE_KEYS=456
+PAGES_FETCHED=5
+VALIDACAO_TOTAL_EXPORTADO=PASS
+EXIT=

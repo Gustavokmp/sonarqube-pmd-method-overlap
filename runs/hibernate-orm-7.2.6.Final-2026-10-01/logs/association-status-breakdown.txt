@@ -1,0 +1,38 @@
+﻿=== SonarQube status ===
+
+Name            Count
+----            -----
+eligible_method   386
+out_of_scope       68
+unassociated        2
+
+
+=== PMD status ===
+
+Name            Count
+----            -----
+eligible_method   190
+out_of_scope      104
+unassociated        4
+
+
+=== PMD out_of_scope reasons ===
+
+Name                                                                           
+----                                                                           
+out_of_scope, construtor (fora da unidade de comparacao)                       
+out_of_scope, nivel de classe/tipo (ex.: NcssCount classReportLevel)           
+unassociated, falha de parsing: (line 6089,col 8) Parse error. Found "{", ex...
+out_of_scope, metodo sem corpo (abstrato/interface sem default)                
+
+
+=== SonarQube non-eligible reasons ===
+
+Name                                                                           
+----                                                                           
+out_of_scope, construtor (fora da unidade de comparacao)                       
+out_of_scope, metodo pertence a tipo local ou anonimo                          
+out_of_scope, metodo sem corpo (abstrato/interface sem default)                
+unassociated, falha de parsing: (line 6089,col 8) Parse error. Found "{", ex...
+
+

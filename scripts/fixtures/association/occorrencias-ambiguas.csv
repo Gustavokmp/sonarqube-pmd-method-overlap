@@ -1,0 +1,3 @@
+# Ocorrencias adicionais para validar o estado "ambiguous" (duas unidades
+# irmas, sem aninhamento, na mesma linha fisica).
+AmbiguousLocation.java,14,ambiguous_two_sibling_methods_same_line

@@ -1,0 +1,44 @@
+﻿# Ocorrencias sinteticas para validar associacao por localizacao (PROTOCOLO.md secao 13).
+# Formato: relative_path,line,label
+#
+# label documenta a expectativa de cada caso (nao e usado pela ferramenta para decidir).
+
+# Caso 1: linha dentro do corpo de um metodo elegivel (overload process(int)).
+OverloadsAndInnerTypes.java,13,eligible_process_int
+
+# Caso 1b: mesma linha reportada duas vezes (simula alerta duplicado de duas fontes) -
+# deve resolver para o MESMO method_id nas duas ocorrencias.
+OverloadsAndInnerTypes.java,13,eligible_process_int_duplicado
+
+# Caso 2: linha da declaracao da classe top-level -> nivel de classe (ex.: NcssCount classReportLevel).
+OverloadsAndInnerTypes.java,9,class_level_declaration
+
+# Caso 3: linha dentro do corpo do construtor -> fora do escopo (nao e metodo).
+OverloadsAndInnerTypes.java,30,constructor_body
+
+# Caso 4: linha dentro de metodo de tipo membro (MemberType.memberMethod) -> elegivel.
+OverloadsAndInnerTypes.java,42,eligible_member_type_method
+
+# Caso 5: linha dentro de metodo de tipo membro aninhado (DeeplyNestedMember.deepMethod) -> elegivel.
+OverloadsAndInnerTypes.java,48,eligible_deeply_nested_member_method
+
+# Caso 6: linha dentro do metodo de um TIPO LOCAL (LocalType.localMethod), fisicamente aninhado
+# dentro de localMethodHost (que tambem e elegivel) -> deve resolver para fora do escopo
+# (o tipo local), nao para o metodo hospedeiro, validando a resolucao pelo no mais especifico.
+OverloadsAndInnerTypes.java,59,out_of_scope_local_type_method
+
+# Caso 7: linha dentro do metodo de uma CLASSE ANONIMA (Runnable.run), fisicamente aninhado
+# dentro de anonymousMethodHost -> deve resolver para fora do escopo (classe anonima).
+OverloadsAndInnerTypes.java,72,out_of_scope_anonymous_class_method
+
+# Caso 8: linha de metodo abstrato de interface (sem corpo) -> fora do escopo.
+OverloadsAndInnerTypes.java,85,out_of_scope_abstract_method_no_body
+
+# Caso 9: linha fora de qualquer tipo declarado (comentario/package antes da declaracao da classe).
+OverloadsAndInnerTypes.java,1,unassociated_outside_any_type
+
+# Caso 10: numero de linha alem do fim do arquivo -> nao associado.
+OverloadsAndInnerTypes.java,9999,unassociated_line_out_of_bounds
+
+# Caso 11: arquivo que nao existe no inventario -> nao associado.
+ArquivoInexistente.java,10,unassociated_missing_file

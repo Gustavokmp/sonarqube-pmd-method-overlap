@@ -1,0 +1,226 @@
+﻿{
+    "commons-lang-3.20.0":  {
+                                "common_count":  11,
+                                "only_sonar_count":  2,
+                                "only_pmd_count":  1,
+                                "common":  {
+                                               "physical_lines":  {
+                                                                      "count":  11,
+                                                                      "min":  82,
+                                                                      "max":  162,
+                                                                      "mean":  115.55,
+                                                                      "median":  112
+                                                                  },
+                                               "ncss":  {
+                                                            "count":  11,
+                                                            "min":  62,
+                                                            "max":  128,
+                                                            "mean":  80.55,
+                                                            "median":  74
+                                                        },
+                                               "ncss_missing_count":  0
+                                           },
+                                "only_sonar":  {
+                                                   "physical_lines":  {
+                                                                          "count":  2,
+                                                                          "min":  91,
+                                                                          "max":  118,
+                                                                          "mean":  104.5,
+                                                                          "median":  91
+                                                                      },
+                                                   "ncss":  {
+                                                                "count":  0,
+                                                                "min":  null,
+                                                                "max":  null,
+                                                                "mean":  null,
+                                                                "median":  null
+                                                            },
+                                                   "ncss_missing_count":  2
+                                               },
+                                "only_pmd":  {
+                                                 "physical_lines":  {
+                                                                        "count":  1,
+                                                                        "min":  71,
+                                                                        "max":  71,
+                                                                        "mean":  71,
+                                                                        "median":  71
+                                                                    },
+                                                 "ncss":  {
+                                                              "count":  1,
+                                                              "min":  67,
+                                                              "max":  67,
+                                                              "mean":  67,
+                                                              "median":  67
+                                                          },
+                                                 "ncss_missing_count":  0
+                                             }
+                            },
+    "hibernate-orm-7.2.6.Final":  {
+                                      "common_count":  125,
+                                      "only_sonar_count":  135,
+                                      "only_pmd_count":  1,
+                                      "common":  {
+                                                     "physical_lines":  {
+                                                                            "count":  125,
+                                                                            "min":  79,
+                                                                            "max":  598,
+                                                                            "mean":  162.39,
+                                                                            "median":  135
+                                                                        },
+                                                     "ncss":  {
+                                                                  "count":  125,
+                                                                  "min":  60,
+                                                                  "max":  219,
+                                                                  "mean":  88.78,
+                                                                  "median":  77
+                                                              },
+                                                     "ncss_missing_count":  0
+                                                 },
+                                      "only_sonar":  {
+                                                         "physical_lines":  {
+                                                                                "count":  135,
+                                                                                "min":  83,
+                                                                                "max":  326,
+                                                                                "mean":  119.87,
+                                                                                "median":  111
+                                                                            },
+                                                         "ncss":  {
+                                                                      "count":  0,
+                                                                      "min":  null,
+                                                                      "max":  null,
+                                                                      "mean":  null,
+                                                                      "median":  null
+                                                                  },
+                                                         "ncss_missing_count":  135
+                                                     },
+                                      "only_pmd":  {
+                                                       "physical_lines":  {
+                                                                              "count":  1,
+                                                                              "min":  54,
+                                                                              "max":  54,
+                                                                              "mean":  54,
+                                                                              "median":  54
+                                                                          },
+                                                       "ncss":  {
+                                                                    "count":  1,
+                                                                    "min":  66,
+                                                                    "max":  66,
+                                                                    "mean":  66,
+                                                                    "median":  66
+                                                                },
+                                                       "ncss_missing_count":  0
+                                                   }
+                                  },
+    "spring-framework-6.2.16":  {
+                                    "common_count":  74,
+                                    "only_sonar_count":  27,
+                                    "only_pmd_count":  7,
+                                    "common":  {
+                                                   "physical_lines":  {
+                                                                          "count":  74,
+                                                                          "min":  84,
+                                                                          "max":  1134,
+                                                                          "mean":  151.84,
+                                                                          "median":  122
+                                                                      },
+                                                   "ncss":  {
+                                                                "count":  74,
+                                                                "min":  60,
+                                                                "max":  820,
+                                                                "mean":  95.59,
+                                                                "median":  72
+                                                            },
+                                                   "ncss_missing_count":  0
+                                               },
+                                    "only_sonar":  {
+                                                       "physical_lines":  {
+                                                                              "count":  27,
+                                                                              "min":  85,
+                                                                              "max":  137,
+                                                                              "mean":  101.67,
+                                                                              "median":  97
+                                                                          },
+                                                       "ncss":  {
+                                                                    "count":  0,
+                                                                    "min":  null,
+                                                                    "max":  null,
+                                                                    "mean":  null,
+                                                                    "median":  null
+                                                                },
+                                                       "ncss_missing_count":  27
+                                                   },
+                                    "only_pmd":  {
+                                                     "physical_lines":  {
+                                                                            "count":  7,
+                                                                            "min":  67,
+                                                                            "max":  96,
+                                                                            "mean":  78.57,
+                                                                            "median":  78
+                                                                        },
+                                                     "ncss":  {
+                                                                  "count":  7,
+                                                                  "min":  61,
+                                                                  "max":  73,
+                                                                  "mean":  64,
+                                                                  "median":  63
+                                                              },
+                                                     "ncss_missing_count":  0
+                                                 }
+                                },
+    "quarkus-3.32.1":  {
+                           "common_count":  161,
+                           "only_sonar_count":  187,
+                           "only_pmd_count":  8,
+                           "common":  {
+                                          "physical_lines":  {
+                                                                 "count":  161,
+                                                                 "min":  79,
+                                                                 "max":  659,
+                                                                 "mean":  181.86,
+                                                                 "median":  151
+                                                             },
+                                          "ncss":  {
+                                                       "count":  161,
+                                                       "min":  60,
+                                                       "max":  403,
+                                                       "mean":  94.93,
+                                                       "median":  79
+                                                   },
+                                          "ncss_missing_count":  0
+                                      },
+                           "only_sonar":  {
+                                              "physical_lines":  {
+                                                                     "count":  187,
+                                                                     "min":  80,
+                                                                     "max":  304,
+                                                                     "mean":  128.52,
+                                                                     "median":  115
+                                                                 },
+                                              "ncss":  {
+                                                           "count":  0,
+                                                           "min":  null,
+                                                           "max":  null,
+                                                           "mean":  null,
+                                                           "median":  null
+                                                       },
+                                              "ncss_missing_count":  187
+                                          },
+                           "only_pmd":  {
+                                            "physical_lines":  {
+                                                                   "count":  8,
+                                                                   "min":  63,
+                                                                   "max":  98,
+                                                                   "mean":  77.88,
+                                                                   "median":  77
+                                                               },
+                                            "ncss":  {
+                                                         "count":  8,
+                                                         "min":  60,
+                                                         "max":  87,
+                                                         "mean":  65.62,
+                                                         "median":  61
+                                                     },
+                                            "ncss_missing_count":  0
+                                        }
+                       }
+}

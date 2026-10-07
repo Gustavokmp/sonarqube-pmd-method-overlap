@@ -1,0 +1,28 @@
+﻿[
+    {
+        "smell":  "long_method",
+        "U":  3829,
+        "A":  13,
+        "B":  12,
+        "PercentSonar":  "0.3395",
+        "PercentPmd":  "0.3134",
+        "Intersection":  11,
+        "OnlySonar":  2,
+        "OnlyPmd":  1,
+        "Union":  14,
+        "Jaccard":  "0.7857"
+    },
+    {
+        "smell":  "long_parameter_list",
+        "U":  3829,
+        "A":  1,
+        "B":  0,
+        "PercentSonar":  "0.0261",
+        "PercentPmd":  "0.0000",
+        "Intersection":  0,
+        "OnlySonar":  1,
+        "OnlyPmd":  0,
+        "Union":  1,
+        "Jaccard":  "0.0000"
+    }
+]

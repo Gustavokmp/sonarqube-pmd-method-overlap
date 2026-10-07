@@ -1,0 +1,31 @@
+﻿=== ce/component (queue+history) ===
+{
+    "queue":  [
+
+              ],
+    "current":  {
+                    "id":  "cbd8a4bc-3061-43d7-93d8-a1bfe5cbfe7d",
+                    "type":  "REPORT",
+                    "componentId":  "c0146a30-2f1e-4313-86c9-a42ed6716a73",
+                    "componentKey":  "spring-framework-6-2-16",
+                    "componentName":  "Spring Framework 6.2.16",
+                    "componentQualifier":  "TRK",
+                    "analysisId":  "2845ace7-10ea-408d-aaf5-e1f8b84a6d4c",
+                    "status":  "SUCCESS",
+                    "submittedAt":  "2026-10-01T21:18:38+0000",
+                    "submitterLogin":  "admin",
+                    "startedAt":  "2026-10-01T21:18:40+0000",
+                    "executedAt":  "2026-10-01T21:19:02+0000",
+                    "executionTimeMs":  22172,
+                    "hasScannerContext":  true,
+                    "warningCount":  3,
+                    "warnings":  [
+                                     "Missing \u0027sonar.java.libraries\u0027 property. You might end up with less precise analysis results.",
+                                     "Shallow clone detected during the analysis. Some files will miss SCM information. This will affect features like auto-assignment of issues. Please configure your build to disable shallow clone.",
+                                     "Missing blame information for 5124 files. This may lead to some features not working correctly. Please check the analysis logs and refer to \u003ca href=\"https://docs.sonarsource.com/sonarqube-community-build/analyzing-source-code/scm-integration/\" rel=\"noopener noreferrer\" target=\"_blank\"\u003ethe documentation\u003c/a\u003e."
+                                 ],
+                    "infoMessages":  [
+
+                                     ]
+                }
+}

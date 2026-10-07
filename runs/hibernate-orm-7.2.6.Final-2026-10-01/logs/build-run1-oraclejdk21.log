@@ -1,0 +1,275 @@
+﻿> Task :local-build-plugins:extractPluginRequests UP-TO-DATE
+> Task :local-build-plugins:generatePluginAdapters UP-TO-DATE
+> Task :local-build-plugins:spotlessInternalRegisterDependencies UP-TO-DATE
+> Task :local-build-plugins:spotlessJava UP-TO-DATE
+> Task :local-build-plugins:spotlessJavaApply UP-TO-DATE
+> Task :local-build-plugins:compileJava UP-TO-DATE
+> Task :local-build-plugins:compileGroovy UP-TO-DATE
+> Task :local-build-plugins:compileGroovyPlugins UP-TO-DATE
+> Task :local-build-plugins:pluginDescriptors UP-TO-DATE
+> Task :local-build-plugins:processResources UP-TO-DATE
+> Task :local-build-plugins:classes UP-TO-DATE
+> Task :local-build-plugins:jar UP-TO-DATE
+Java versions for main code: [compiler: 21, release:17, explicit: true]
+Java versions for test code: [compiler: 21, release:21, launcher: 21, explicit: true]
+
+> Configure project :
+No android or java plugins found in the project hibernate-orm, checker compiler options will not be applied.
+
+> Configure project :hibernate-gradle-plugin
+[WARN] Toolchains are not yet supported for Groovy compilation. Using the JDK that runs Gradle for Groovy compilation.
+
+> Task :hibernate-maven-plugin:generateMavenPluginHelpMojoSources SKIPPED
+> Task :spotlessInternalRegisterDependencies
+> Task :hibernate-processor:processResources
+> Task :hibernate-agroal:spotlessJava
+> Task :hibernate-gradle-plugin:spotlessJava
+> Task :hibernate-scan-jandex:spotlessJava
+> Task :hibernate-agroal:spotlessJavaApply
+> Task :hibernate-micrometer:spotlessJava
+> Task :hibernate-gradle-plugin:spotlessJavaApply
+> Task :hibernate-maven-plugin:spotlessJava
+> Task :hibernate-scan-jandex:spotlessJavaApply
+> Task :hibernate-micrometer:spotlessJavaApply
+> Task :hibernate-maven-plugin:spotlessJavaApply
+> Task :hibernate-hikaricp:spotlessJava
+> Task :hibernate-hikaricp:spotlessJavaApply
+> Task :hibernate-c3p0:spotlessJava
+> Task :hibernate-c3p0:spotlessJavaApply
+> Task :hibernate-graalvm:spotlessJava
+> Task :hibernate-graalvm:spotlessJavaApply
+> Task :hibernate-ant:spotlessJava
+> Task :hibernate-ant:spotlessJavaApply
+> Task :hibernate-jcache:spotlessJava
+> Task :hibernate-jcache:spotlessJavaApply
+> Task :hibernate-spatial:spotlessJava
+> Task :hibernate-spatial:spotlessJavaApply
+> Task :hibernate-vector:spotlessJava
+> Task :hibernate-vector:spotlessJavaApply
+
+> Task :hibernate-core:generateGraphParser
+Starting Antlr lexer grammar generation `graph` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\graph\GraphLanguageLexer.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph`
+
+> Task :hibernate-community-dialects:spotlessJava
+> Task :hibernate-community-dialects:spotlessJavaApply
+> Task :hibernate-processor:spotlessJava
+> Task :hibernate-processor:spotlessJavaApply
+> Task :hibernate-testing:spotlessJava
+> Task :hibernate-testing:spotlessJavaApply
+
+> Task :hibernate-core:generateGraphParser
+Starting Antlr parser grammar generation `graph` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\graph\GraphLanguageParser.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph`
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageLexer.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageParser.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageParserBaseListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageParserBaseVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageParserListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\graph\GraphLanguageParserVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\graph
+
+> Task :hibernate-envers:spotlessJava
+> Task :hibernate-envers:spotlessJavaApply
+
+> Task :hibernate-core:generateHqlParser
+Starting Antlr lexer grammar generation `hql` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\hql\HqlLexer.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql`
+Starting Antlr parser grammar generation `hql` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\hql\HqlParser.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql`
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlLexer.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlParser.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlParserBaseListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlParserBaseVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlParserListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\hql\HqlParserVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\hql
+
+> Task :local-build-asciidoctor-extensions:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-core:generateOrderingParser
+Starting Antlr lexer grammar generation `ordering` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\ordering\OrderingLexer.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering`
+Starting Antlr parser grammar generation `ordering` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\ordering\OrderingParser.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering`
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingLexer.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingParser.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingParserBaseListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingParserBaseVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingParserListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\ordering\OrderingParserVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\ordering
+
+> Task :hibernate-core:generateSqlScriptParser
+Starting Antlr lexer grammar generation `sqlScript` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\importsql\SqlScriptLexer.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql`
+Starting Antlr parser grammar generation `sqlScript` : `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\antlr\org\hibernate\grammars\importsql\SqlScriptParser.g4` -> `C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql`
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptLexer.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptParser.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptParserBaseListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptParserBaseVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptParserListener.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+Stripping silly generated-from line from C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\tmp\antlr\org\hibernate\grammars\importsql\SqlScriptParserVisitor.java into C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hibernate-orm-7.2.6.Final\hibernate-core\target\generated\sources\antlr\main\org\hibernate\grammars\importsql
+
+> Task :hibernate-core:generateParsers
+> Task :hibernate-core:xjcCfg
+> Task :hibernate-core:xjcConfiguration
+> Task :hibernate-core:xjcHbm
+> Task :hibernate-core:xjcMapping
+> Task :hibernate-core:spotlessJava
+> Task :hibernate-core:spotlessJavaApply
+
+> Task :hibernate-core:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+.\gradlew.bat : Note: Some input files use or override a deprecated API.
+No linha:1 caractere:1
++ .\gradlew.bat compileJava "-Dmain.jdk.version=21" "-Dtest.jdk.version ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Note: Some inpu...deprecated API. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for 
+removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-core:processResources
+> Task :hibernate-core:classes
+
+> Task :hibernate-scan-jandex:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-scan-jandex\src\main\java\org\hibernate\archive\
+scan\internal\ScanResultCollector.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-c3p0:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-c3p0\src\main\java\org\hibernate\c3p0\internal\C
+3P0ConnectionProvider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-ant:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-hikaricp:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-hikaricp\src\main\java\org\hibernate\hikaricp\in
+ternal\HikariConfigurationUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-jcache:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-jcache\src\main\java\org\hibernate\cache\jcache\
+internal\JCacheRegionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-processor:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-agroal:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-agroal\src\main\java\org\hibernate\agroal\intern
+al\AgroalConnectionProvider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-spatial:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-gradle-plugin:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-community-dialects:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-graalvm:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-graalvm\src\main\java\org\hibernate\graalvm\inte
+rnal\StaticClassLists.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-vector:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-vector\src\main\java\org\hibernate\vector\intern
+al\VectorDdlType.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-micrometer:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hibernate-maven-plugin:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+
+> Task :hibernate-ant:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-spatial:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-processor:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for 
+removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-processor:classes
+
+> Task :hibernate-community-dialects:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for 
+removal.
+Note: Recompile with -Xlint:removal for details.
+Note: C:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\sources\hiber
+nate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\c
+ommunity\dialect\SingleStoreDialect.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-core:jar
+> Task :hibernate-processor:jar
+
+> Task :hibernate-envers:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for 
+removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hibernate-integrationtest-java-modules:compileJava NO-SOURCE
+
+> Task :hibernate-testing:compileJava
+Compiling with 'C:\Program Files\Java\jdk-21' to release '17'
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for 
+removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+[Incubating] Problems report is available at: file:///C:/Users/gusta/Documents/gustavo/mestrado/tese/exp-mestrado/sources/hibernate-orm-7.2.6.Final/target/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 49s
+76 actionable tasks: 65 executed, 11 up-to-date

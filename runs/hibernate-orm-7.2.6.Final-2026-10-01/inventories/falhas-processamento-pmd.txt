@@ -1,0 +1,61 @@
+arquivos_java_em_escopo=6605
+arquivos_processados_com_sucesso_pelo_pmd=6601
+falhas_de_processamento_pmd=4
+
+hibernate-envers/org/hibernate/envers/boot/model/Attribute.java :: SemanticException: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Attribute], expecting 0 type arguments (linha 14, col 77)
+hibernate-envers/org/hibernate/envers/boot/model/Column.java :: SemanticException: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Column], expecting 0 type arguments (linha 17, col 69)
+hibernate-envers/org/hibernate/envers/boot/model/Key.java :: SemanticException: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Key], expecting 0 type arguments (linha 17, col 72)
+hibernate-envers/org/hibernate/envers/boot/model/TypeSpecification.java :: SemanticException: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.TypeSpecification], expecting 0 type arguments (linha 19, col 109)
+
+Causa raiz confirmada: o pacote `org.hibernate.envers.boot.model` declara sua
+PRÓPRIA interface genérica `Cloneable<T>` (arquivo
+`hibernate-envers/.../boot/model/Cloneable.java`), que deveria sombrear
+`java.lang.Cloneable` para referências não qualificadas dentro do mesmo
+pacote (regra padrão de resolução de nomes em Java). O resolvedor de
+símbolos do PMD 7.27.0, ao encontrar `Cloneable<X>` nesses 4 arquivos,
+resolve incorretamente para `java.lang.Cloneable` (que não é genérico, 0
+parâmetros de tipo) em vez do tipo local `org.hibernate.envers.boot.model.Cloneable<T>`
+(1 parâmetro de tipo), lançando `SemanticException` e abortando a análise
+do arquivo inteiro (nenhuma violação pode ser reportada para ele).
+
+Reproduzido de forma isolada e mínima em
+`scripts/fixtures/boundary/pmd-cloneable-shadow-repro/` (interface local
+`repro.Cloneable<T>` sombreando `java.lang.Cloneable`, mesmo erro exato
+reproduzido: "Cannot parameterize java/lang/Cloneable with [...], expecting
+0 type arguments"). Log do repro:
+`runs/hibernate-orm-7.2.6.Final-2026-10-01/logs/pmd-cloneable-repro-output.txt`.
+
+Não é um bug do ruleset do experimento nem do código do projeto estudado
+(o código é Java válido, compilado com sucesso pelo Gradle/javac na etapa
+de Build) — é uma limitação de resolução de símbolos do PMD 7.27.0 diante
+de um tipo local que sombreia um tipo de `java.lang`, fora do nosso
+controle. É o análogo, do lado do PMD, ao caso já documentado do lado do
+JavaParser (`falhas-parsing.txt`, `Dialect.java`): cada ferramenta de
+parsing/AST usada no experimento tem sua própria cobertura de gramática/
+resolução de tipos, e ambos os casos são limitações de ferramenta, não
+decisões metodológicas.
+
+Tratamento adotado (não é mudança metodológica, apenas registro honesto de
+falha de processamento conforme protocolo seção 9/12 — "distinguir execução
+tecnicamente bem-sucedida com violações de falha técnica do PMD"; aqui a
+execução geral foi bem-sucedida (298 violações relatadas), com falha técnica
+isolada a 4 dos 6605 arquivos):
+- Os 4 arquivos permanecem listados em `arquivos-incluidos.txt` (são código
+  de produção, dentro do escopo) e CONTINUAM contribuindo métodos para o
+  universo elegível |U| (o JavaParser, usado pelo `MethodInventoryExtractor`,
+  parseia esses 4 arquivos sem problema — são apenas 4 interfaces/classes
+  pequenas, sem métodos elegíveis de Long Method/Long Parameter List nelas
+  mesmas, apenas tipos marcadores/contratos simples).
+- Nenhum alerta do PMD pode existir para esses 4 arquivos (análise abortada
+  pelo PMD para o arquivo); portanto, para qualquer método elegível dentro
+  deles, o PMD estrutural e necessariamente não pode detectar Long
+  Method/Long Parameter List ali — uma assimetria de cobertura PMD vs
+  SonarQube (o SonarQube processou os mesmos 4 arquivos sem erro, conforme
+  log do scanner, que não reporta nenhum erro de análise para esses
+  arquivos).
+- Registrado na seção de Cobertura do STATUS.md (seção 6) com a
+  justificativa acima, sem exigir abertura de bloqueio: não altera projeto,
+  versão, regra, parâmetro ou definição de unidade de comparação — apenas
+  reconhece que a cobertura de arquivos processáveis pelo PMD é 6601/6605
+  (99,94%), não 6605/6605, pela mesma razão estrutural já aceita para o
+  caso inverso do JavaParser (1 arquivo).

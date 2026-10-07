@@ -1,0 +1,14 @@
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\ArrayUtils.java:60:	NcssCount:	The class 'ArrayUtils' has a NCSS line count of 2176 (Highest = 31).
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\JavaVersion.java:219:	NcssCount:	The method 'get(String)' has a NCSS line count of 67.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\RandomStringUtils.java:255:	NcssCount:	The method 'random(int, int, int, boolean, boolean, char[], Random)' has a NCSS line count of 73.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\StringUtils.java:125:	NcssCount:	The class 'StringUtils' has a NCSS line count of 1780 (Highest = 62).
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\StringUtils.java:7606:	NcssCount:	The method 'splitWorker(String, String, int, boolean)' has a NCSS line count of 62.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\builder\ToStringStyle.java:1449:	NcssCount:	The method 'appendInternal(StringBuffer, String, Object, boolean)' has a NCSS line count of 77.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\math\NumberUtils.java:323:	NcssCount:	The method 'createNumber(String)' has a NCSS line count of 100.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\math\NumberUtils.java:555:	NcssCount:	The method 'isCreatable(String)' has a NCSS line count of 68.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\text\StrSubstitutor.java:1104:	NcssCount:	The method 'substitute(StrBuilder, int, int, List<String>)' has a NCSS line count of 85.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DateUtils.java:1107:	NcssCount:	The method 'modify(Calendar, int, ModifyType)' has a NCSS line count of 74.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DurationFormatUtils.java:239:	NcssCount:	The method 'format(Token[], long, long, long, long, long, long, long, boolean)' has a NCSS line count of 75.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DurationFormatUtils.java:529:	NcssCount:	The method 'formatPeriod(long, long, String, boolean, TimeZone)' has a NCSS line count of 71.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DurationFormatUtils.java:680:	NcssCount:	The method 'lexx(String)' has a NCSS line count of 73.
+..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\FastDatePrinter.java:1330:	NcssCount:	The method 'parsePattern()' has a NCSS line count of 128.

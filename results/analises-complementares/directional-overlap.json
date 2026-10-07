@@ -1,0 +1,74 @@
+﻿[
+    {
+        "project":  "commons-lang-3.20.0",
+        "smell":  "long_method",
+        "A":  13,
+        "B":  12,
+        "intersection":  11,
+        "sq_to_pmd":  "0.8462",
+        "pmd_to_sq":  "0.9167"
+    },
+    {
+        "project":  "commons-lang-3.20.0",
+        "smell":  "long_parameter_list",
+        "A":  1,
+        "B":  0,
+        "intersection":  0,
+        "sq_to_pmd":  "0.0000",
+        "pmd_to_sq":  "N/A"
+    },
+    {
+        "project":  "hibernate-orm-7.2.6.Final",
+        "smell":  "long_method",
+        "A":  260,
+        "B":  126,
+        "intersection":  125,
+        "sq_to_pmd":  "0.4808",
+        "pmd_to_sq":  "0.9921"
+    },
+    {
+        "project":  "hibernate-orm-7.2.6.Final",
+        "smell":  "long_parameter_list",
+        "A":  126,
+        "B":  64,
+        "intersection":  47,
+        "sq_to_pmd":  "0.3730",
+        "pmd_to_sq":  "0.7344"
+    },
+    {
+        "project":  "spring-framework-6.2.16",
+        "smell":  "long_method",
+        "A":  101,
+        "B":  81,
+        "intersection":  74,
+        "sq_to_pmd":  "0.7327",
+        "pmd_to_sq":  "0.9136"
+    },
+    {
+        "project":  "spring-framework-6.2.16",
+        "smell":  "long_parameter_list",
+        "A":  10,
+        "B":  0,
+        "intersection":  0,
+        "sq_to_pmd":  "0.0000",
+        "pmd_to_sq":  "N/A"
+    },
+    {
+        "project":  "quarkus-3.32.1",
+        "smell":  "long_method",
+        "A":  348,
+        "B":  169,
+        "intersection":  161,
+        "sq_to_pmd":  "0.4626",
+        "pmd_to_sq":  "0.9527"
+    },
+    {
+        "project":  "quarkus-3.32.1",
+        "smell":  "long_parameter_list",
+        "A":  292,
+        "B":  170,
+        "intersection":  156,
+        "sq_to_pmd":  "0.5342",
+        "pmd_to_sq":  "0.9176"
+    }
+]

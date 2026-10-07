@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.27.0" timestamp="2026-10-01T17:19:53.664">
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\CockroachLegacyDialect.java">
+<violation beginline="417" endline="417" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="CockroachLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 81.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\DB2LegacyDialect.java">
+<violation beginline="314" endline="314" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="DB2LegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 102.
+</violation>
+<violation beginline="617" endline="617" begincolumn="23" endcolumn="46" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="DB2LegacyDialect" method="timestampdiffPatternV10" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'timestampdiffPatternV10(TemporalUnit, TemporalType, TemporalType)' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\DerbyDialect.java">
+<violation beginline="750" endline="750" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="DerbyDialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 209.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\DerbyLegacyDialect.java">
+<violation beginline="736" endline="736" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="DerbyLegacyDialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 209.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\FirebirdDialect.java">
+<violation beginline="281" endline="281" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="FirebirdDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\GaussDBFunctionRegistry.java">
+<violation beginline="46" endline="46" begincolumn="14" endcolumn="22" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="GaussDBFunctionRegistry" method="register" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'register()' has a NCSS line count of 70.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\H2LegacyDialect.java">
+<violation beginline="326" endline="326" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="H2LegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 99.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\HANALegacyDialect.java">
+<violation beginline="417" endline="417" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="HANALegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 64.
+</violation>
+<violation beginline="709" endline="709" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="HANALegacyDialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 109.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\HSQLLegacyDialect.java">
+<violation beginline="193" endline="193" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="HSQLLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 79.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\MySQLLegacyDialect.java">
+<violation beginline="596" endline="596" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="MySQLLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 91.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\OracleLegacyDialect.java">
+<violation beginline="273" endline="273" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="OracleLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 108.
+</violation>
+<violation beginline="498" endline="498" begincolumn="16" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="OracleLegacyDialect" method="castPattern" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'castPattern(CastType, CastType)' has a NCSS line count of 71.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\OracleLegacySqlAstTranslator.java">
+<violation beginline="551" endline="551" begincolumn="17" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="OracleLegacySqlAstTranslator" method="renderComparison" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderComparison(Expression, ComparisonOperator, Expression)' has a NCSS line count of 94.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\PostgreSQLLegacyDialect.java">
+<violation beginline="591" endline="591" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="PostgreSQLLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 130.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\SQLServerLegacyDialect.java">
+<violation beginline="390" endline="390" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="SQLServerLegacyDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 70.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\SingleStoreDialect.java">
+<violation beginline="557" endline="557" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="SingleStoreDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\SybaseASELegacyDialect.java">
+<violation beginline="309" endline="309" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="SybaseASELegacyDialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 219.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-community-dialects\src\main\java\org\hibernate\community\dialect\SybaseASELegacySqlAstTranslator.java">
+<violation beginline="311" endline="311" begincolumn="17" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.community.dialect" class="SybaseASELegacySqlAstTranslator" method="renderComparison" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderComparison(Expression, ComparisonOperator, Expression)' has a NCSS line count of 88.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\action\internal\EntityUpdateAction.java">
+<violation beginline="65" endline="76" begincolumn="27" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.action.internal" class="EntityUpdateAction" method="EntityUpdateAction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\internal\MetadataImpl.java">
+<violation beginline="97" endline="118" begincolumn="21" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.internal" class="MetadataImpl" method="MetadataImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (21 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\internal\NamedHqlQueryDefinitionImpl.java">
+<violation beginline="29" endline="46" begincolumn="36" endcolumn="20" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.internal" class="NamedHqlQueryDefinitionImpl" method="NamedHqlQueryDefinitionImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (17 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\internal\NamedNativeQueryDefinitionImpl.java">
+<violation beginline="31" endline="48" begincolumn="39" endcolumn="20" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.internal" class="NamedNativeQueryDefinitionImpl" method="NamedNativeQueryDefinitionImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (17 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\internal\SessionFactoryOptionsBuilder.java">
+<violation beginline="264" endline="264" begincolumn="9" endcolumn="37" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.internal" class="SessionFactoryOptionsBuilder" method="SessionFactoryOptionsBuilder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'SessionFactoryOptionsBuilder(StandardServiceRegistry, BootstrapContext)' has a NCSS line count of 126.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\jaxb\hbm\transform\HbmXmlTransformer.java">
+<violation beginline="355" endline="355" begincolumn="15" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.jaxb.hbm.transform" class="HbmXmlTransformer" method="transferRootEntity" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'transferRootEntity(JaxbHbmRootEntityType, JaxbEntityImpl, EntityTypeInfo)' has a NCSS line count of 75.
+</violation>
+<violation beginline="1293" endline="1293" begincolumn="15" endcolumn="37" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.jaxb.hbm.transform" class="HbmXmlTransformer" method="transferBaseAttributes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'transferBaseAttributes(String, List&lt;?&gt;, ManagedTypeInfo, JaxbAttributesContainer)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\jaxb\internal\stax\LocalXmlResourceResolver.java">
+<violation beginline="34" endline="34" begincolumn="16" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.jaxb.internal.stax" class="LocalXmlResourceResolver" method="resolveEntity" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveEntity(String, String, String, String)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\AnnotatedColumn.java">
+<violation beginline="276" endline="287" begincolumn="34" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="AnnotatedColumn" method="initMappingColumn" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="832" endline="844" begincolumn="44" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="AnnotatedColumn" method="buildColumn" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\BinderHelper.java">
+<violation beginline="422" endline="422" begincolumn="32" endcolumn="55" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.internal" class="BinderHelper" method="findPropertiesByColumns" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'findPropertiesByColumns(AttributeContainer, AnnotatedJoinColumns, PersistentClass, MetadataBuildingContext)' has a NCSS line count of 60.
+</violation>
+<violation beginline="716" endline="727" begincolumn="33" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="BinderHelper" method="buildAnyValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\CollectionBinder.java">
+<violation beginline="437" endline="447" begincolumn="42" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="CollectionBinder" method="handleTargetEntity" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="1895" endline="1895" begincolumn="25" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.internal" class="CollectionBinder" method="buildCollectionKey" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'buildCollectionKey(AnnotatedJoinColumns, OnDeleteAction)' has a NCSS line count of 70.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\EmbeddableBinder.java">
+<violation beginline="88" endline="102" begincolumn="45" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="createCompositeBinder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+<violation beginline="130" endline="144" begincolumn="43" endcolumn="60" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="createEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+<violation beginline="183" endline="194" begincolumn="51" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="bindOverriddenEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="240" endline="251" begincolumn="51" endcolumn="46" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="bindOverriddenEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="277" endline="289" begincolumn="33" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="bindEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="381" endline="394" begincolumn="33" endcolumn="65" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="fillEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="415" endline="431" begincolumn="33" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="EmbeddableBinder" method="fillEmbeddable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\OneToOneSecondPass.java">
+<violation beginline="46" endline="57" begincolumn="27" endcolumn="44" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="OneToOneSecondPass" method="OneToOneSecondPass" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\PropertyBinder.java">
+<violation beginline="1064" endline="1075" begincolumn="39" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="PropertyBinder" method="propertyBinder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="1168" endline="1178" begincolumn="30" endcolumn="35" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="PropertyBinder" method="aggregateBinder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\TableBinder.java">
+<violation beginline="478" endline="488" begincolumn="40" endcolumn="73" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="TableBinder" method="buildAndFillTable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\internal\ToOneBinder.java">
+<violation beginline="140" endline="152" begincolumn="35" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="ToOneBinder" method="bindManyToOne" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="466" endline="479" begincolumn="34" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.internal" class="ToOneBinder" method="bindOneToOne" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\process\internal\InferredBasicValueResolver.java">
+<violation beginline="55" endline="55" begincolumn="45" endcolumn="49" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.process.internal" class="InferredBasicValueResolver" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'from(BasicJavaType&lt;T&gt;, JdbcType, Type, Supplier&lt;JavaType&lt;T&gt;&gt;, Function&lt;TypeConfiguration, MutabilityPlan&lt;?&gt;&gt;, JdbcTypeIndicators, Table, Selectable, String, String, MetadataBuildingContext)' has a NCSS line count of 70.
+</violation>
+<violation beginline="55" endline="66" begincolumn="49" endcolumn="44" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.process.internal" class="InferredBasicValueResolver" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\process\spi\MetadataBuildingProcess.java">
+<violation beginline="670" endline="670" begincolumn="22" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.process.spi" class="MetadataBuildingProcess" method="handleTypes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleTypes(BootstrapContext, MetadataBuildingOptions, InFlightMetadataCollector)' has a NCSS line count of 69.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\relational\ColumnOrderingStrategyStandard.java">
+<violation beginline="132" endline="132" begincolumn="23" endcolumn="42" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.relational" class="ColumnOrderingStrategyStandard" method="physicalSizeInBytes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'physicalSizeInBytes(int, Size, Metadata)' has a NCSS line count of 75.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\source\internal\OverriddenMappingDefaults.java">
+<violation beginline="37" endline="52" begincolumn="34" endcolumn="56" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.source.internal" class="OverriddenMappingDefaults" method="OverriddenMappingDefaults" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (15 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\model\source\internal\hbm\ModelBinder.java">
+<violation beginline="120" endline="120" begincolumn="14" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.source.internal.hbm" class="ModelBinder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'ModelBinder' has a NCSS line count of 1522 (Highest = 77).
+</violation>
+<violation beginline="861" endline="861" begincolumn="15" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.model.source.internal.hbm" class="ModelBinder" method="bindAllEntityAttributes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'bindAllEntityAttributes(MappingDocument, EntitySource, PersistentClass)' has a NCSS line count of 77.
+</violation>
+<violation beginline="2303" endline="2313" begincolumn="28" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.model.source.internal.hbm" class="ModelBinder" method="bindComponent" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\models\xml\internal\SimpleTypeInterpretation.java">
+<violation beginline="112" endline="112" begincolumn="41" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.models.xml.internal" class="SimpleTypeInterpretation" method="interpret" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'interpret(String)' has a NCSS line count of 91.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\models\xml\internal\XmlAnnotationHelper.java">
+<violation beginline="984" endline="984" begincolumn="29" endcolumn="44" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.models.xml.internal" class="XmlAnnotationHelper" method="resolveJavaType" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveJavaType(String, String, ClassDetailsRegistry)' has a NCSS line count of 77.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\registry\selector\internal\DefaultDialectSelector.java">
+<violation beginline="31" endline="31" begincolumn="34" endcolumn="41" rule="NcssCount" ruleset="Design" package="org.hibernate.boot.registry.selector.internal" class="DefaultDialectSelector" method="resolve" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolve(String)' has a NCSS line count of 75.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\boot\spi\AbstractNamedQueryDefinition.java">
+<violation beginline="41" endline="54" begincolumn="37" endcolumn="20" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.boot.spi" class="AbstractNamedQueryDefinition" method="AbstractNamedQueryDefinition" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\bytecode\enhance\internal\bytebuddy\EnhancerImpl.java">
+<violation beginline="161" endline="161" begincolumn="33" endcolumn="42" rule="NcssCount" ruleset="Design" package="org.hibernate.bytecode.enhance.internal.bytebuddy" class="EnhancerImpl" method="doEnhance" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doEnhance(Supplier&lt;Builder&lt;?&gt;&gt;, TypeDescription)' has a NCSS line count of 86.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\bytecode\enhance\internal\bytebuddy\GetPropertyValues.java">
+<violation beginline="50" endline="50" begincolumn="14" endcolumn="19" rule="NcssCount" ruleset="Design" package="org.hibernate.bytecode.enhance.internal.bytebuddy" class="GetPropertyValues" method="apply" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'apply(MethodVisitor, Context, MethodDescription)' has a NCSS line count of 70.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\bytecode\enhance\internal\bytebuddy\SetPropertyValues.java">
+<violation beginline="49" endline="49" begincolumn="14" endcolumn="19" rule="NcssCount" ruleset="Design" package="org.hibernate.bytecode.enhance.internal.bytebuddy" class="SetPropertyValues" method="apply" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'apply(MethodVisitor, Context, MethodDescription)' has a NCSS line count of 124.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\CockroachDialect.java">
+<violation beginline="413" endline="413" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="CockroachDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 83.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\DB2Dialect.java">
+<violation beginline="323" endline="323" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="DB2Dialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 85.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\Dialect.java">
+<violation beginline="327" endline="327" begincolumn="23" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="Dialect" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'Dialect' has a NCSS line count of 1528 (Highest = 77).
+</violation>
+<violation beginline="1106" endline="1106" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="Dialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 66.
+</violation>
+<violation beginline="1488" endline="1488" begincolumn="16" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="Dialect" method="castPattern" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'castPattern(CastType, CastType)' has a NCSS line count of 77.
+</violation>
+<violation beginline="1577" endline="1577" begincolumn="19" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="Dialect" method="buildStringToBooleanCast" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'buildStringToBooleanCast(String, String)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\H2Dialect.java">
+<violation beginline="267" endline="267" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="H2Dialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 91.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\HANADialect.java">
+<violation beginline="437" endline="437" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="HANADialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 64.
+</violation>
+<violation beginline="733" endline="733" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="HANADialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 109.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\HSQLDialect.java">
+<violation beginline="142" endline="142" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="HSQLDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 78.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\MySQLDialect.java">
+<violation beginline="588" endline="588" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="MySQLDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 84.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\OracleDialect.java">
+<violation beginline="295" endline="295" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="OracleDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 105.
+</violation>
+<violation beginline="515" endline="515" begincolumn="16" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="OracleDialect" method="castPattern" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'castPattern(CastType, CastType)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\PostgreSQLDialect.java">
+<violation beginline="558" endline="558" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="PostgreSQLDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 127.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\SQLServerDialect.java">
+<violation beginline="362" endline="362" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="SQLServerDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 71.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\SpannerDialect.java">
+<violation beginline="199" endline="199" begincolumn="14" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="SpannerDialect" method="initializeFunctionRegistry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initializeFunctionRegistry(FunctionContributions)' has a NCSS line count of 91.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\SybaseASEDialect.java">
+<violation beginline="360" endline="360" begincolumn="17" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect" class="SybaseASEDialect" method="registerDefaultKeywords" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerDefaultKeywords()' has a NCSS line count of 219.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\aggregate\DB2AggregateSupport.java">
+<violation beginline="75" endline="75" begincolumn="16" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.aggregate" class="DB2AggregateSupport" method="aggregateComponentCustomReadExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'aggregateComponentCustomReadExpression(String, String, String, String, int, SqlTypedMapping, TypeConfiguration)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\aggregate\HANAAggregateSupport.java">
+<violation beginline="75" endline="75" begincolumn="16" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.aggregate" class="HANAAggregateSupport" method="aggregateComponentCustomReadExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'aggregateComponentCustomReadExpression(String, String, String, String, int, SqlTypedMapping, TypeConfiguration)' has a NCSS line count of 64.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\aggregate\OracleAggregateSupport.java">
+<violation beginline="97" endline="97" begincolumn="16" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.aggregate" class="OracleAggregateSupport" method="aggregateComponentCustomReadExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'aggregateComponentCustomReadExpression(String, String, String, String, int, SqlTypedMapping, TypeConfiguration)' has a NCSS line count of 126.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\aggregate\SQLServerAggregateSupport.java">
+<violation beginline="53" endline="53" begincolumn="16" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.aggregate" class="SQLServerAggregateSupport" method="aggregateComponentCustomReadExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'aggregateComponentCustomReadExpression(String, String, String, String, int, SqlTypedMapping, TypeConfiguration)' has a NCSS line count of 77.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\AggregateWindowEmulationQueryTransformer.java">
+<violation beginline="90" endline="90" begincolumn="19" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function" class="AggregateWindowEmulationQueryTransformer" method="transform" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'transform(CteContainer, QuerySpec, SqmToSqlAstConverter)' has a NCSS line count of 142.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\CountFunction.java">
+<violation beginline="147" endline="147" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function" class="CountFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, Predicate, ReturnableType&lt;?&gt;, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 100.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\CteGenerateSeriesFunction.java">
+<violation beginline="194" endline="194" begincolumn="26" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function" class="CteGenerateSeriesFunction" method="createCteSubquery" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createCteSubquery(FunctionTableGroup, SqmToSqlAstConverter)' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\FormatFunction.java">
+<violation beginline="197" endline="197" begincolumn="21" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function" class="FormatFunction.FormatSqmFunction" method="convertToSqlAst" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'convertToSqlAst(SqmToSqlAstConverter)' has a NCSS line count of 83.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\array\H2ArrayToStringFunction.java">
+<violation beginline="38" endline="38" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.array" class="H2ArrayToStringFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, ReturnableType&lt;?&gt;, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\array\HSQLArrayToStringFunction.java">
+<violation beginline="33" endline="33" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.array" class="HSQLArrayToStringFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, ReturnableType&lt;?&gt;, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\array\OracleArrayToStringFunction.java">
+<violation beginline="35" endline="35" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.array" class="OracleArrayToStringFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, ReturnableType&lt;?&gt;, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\json\PostgreSQLJsonMergepatchFunction.java">
+<violation beginline="27" endline="27" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.json" class="PostgreSQLJsonMergepatchFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, ReturnableType&lt;?&gt;, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 103.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\json\SQLServerJsonQueryFunction.java">
+<violation beginline="54" endline="54" begincolumn="15" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.json" class="SQLServerJsonQueryFunction" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, JsonQueryArguments, List&lt;JsonPathElement&gt;, int, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\function\json\SQLServerJsonTableFunction.java">
+<violation beginline="109" endline="109" begincolumn="17" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.function.json" class="SQLServerJsonTableFunction" method="renderColumnSelects" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderColumnSelects(SqlAppender, JsonTableColumnsClause, int, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 70.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\sql\ast\OracleSqlAstTranslator.java">
+<violation beginline="523" endline="523" begincolumn="17" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.sql.ast" class="OracleSqlAstTranslator" method="renderComparison" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderComparison(Expression, ComparisonOperator, Expression)' has a NCSS line count of 94.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\sql\ast\SybaseASESqlAstTranslator.java">
+<violation beginline="322" endline="322" begincolumn="17" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.sql.ast" class="SybaseASESqlAstTranslator" method="renderComparison" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderComparison(Expression, ComparisonOperator, Expression)' has a NCSS line count of 97.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\dialect\type\AbstractPostgreSQLStructJdbcType.java">
+<violation beginline="268" endline="268" begincolumn="14" endcolumn="31" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.type" class="AbstractPostgreSQLStructJdbcType" method="deserializeStruct" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'deserializeStruct(String, int, int, Object[], boolean, WrapperOptions)' has a NCSS line count of 177.
+</violation>
+<violation beginline="648" endline="648" begincolumn="14" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.type" class="AbstractPostgreSQLStructJdbcType" method="deserializeArray" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'deserializeArray(String, int, int, ArrayList&lt;Object&gt;, BasicType&lt;Object&gt;, WrapperOptions)' has a NCSS line count of 139.
+</violation>
+<violation beginline="1162" endline="1162" begincolumn="15" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.dialect.type" class="AbstractPostgreSQLStructJdbcType" method="serializeConvertedBasicTo" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'serializeConvertedBasicTo(PostgreSQLAppender, WrapperOptions, JdbcMapping, Object)' has a NCSS line count of 97.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\Cascade.java">
+<violation beginline="200" endline="212" begincolumn="41" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="Cascade" method="cascadeProperty" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="423" endline="435" begincolumn="44" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="Cascade" method="cascadeAssociation" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="471" endline="482" begincolumn="43" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="Cascade" method="cascadeCollection" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="512" endline="523" begincolumn="38" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="Cascade" method="cascadeToOne" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="554" endline="567" begincolumn="51" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="Cascade" method="cascadeCollectionElements" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\EntityEntryImpl.java">
+<violation beginline="101" endline="111" begincolumn="24" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="EntityEntryImpl" method="EntityEntryImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\ImmutableEntityEntryFactory.java">
+<violation beginline="32" endline="42" begincolumn="38" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="ImmutableEntityEntryFactory" method="createEntityEntry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\MutableEntityEntryFactory.java">
+<violation beginline="32" endline="42" begincolumn="38" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="MutableEntityEntryFactory" method="createEntityEntry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\SessionMetricsLogger.java">
+<violation beginline="47" endline="73" begincolumn="21" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="SessionMetricsLogger" method="sessionMetrics" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (26 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\internal\StatefulPersistenceContext.java">
+<violation beginline="634" endline="644" begincolumn="29" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.internal" class="StatefulPersistenceContext" method="addEntry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="1949" endline="1949" begincolumn="43" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.engine.internal" class="StatefulPersistenceContext" method="deserialize" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'deserialize(ObjectInputStream, SessionImplementor)' has a NCSS line count of 79.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\jdbc\connections\internal\DatabaseConnectionInfoImpl.java">
+<violation beginline="51" endline="65" begincolumn="35" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.jdbc.connections.internal" class="DatabaseConnectionInfoImpl" method="DatabaseConnectionInfoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\jdbc\env\internal\JdbcEnvironmentInitiator.java">
+<violation beginline="562" endline="573" begincolumn="35" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.jdbc.env.internal" class="JdbcEnvironmentInitiator.DialectResolutionInfoImpl" method="DialectResolutionInfoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\jdbc\env\internal\NormalizingIdentifierHelperImpl.java">
+<violation beginline="35" endline="45" begincolumn="40" endcolumn="46" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.jdbc.env.internal" class="NormalizingIdentifierHelperImpl" method="NormalizingIdentifierHelperImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\jdbc\internal\BasicFormatterImpl.java">
+<violation beginline="66" endline="66" begincolumn="17" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.hibernate.engine.jdbc.internal" class="BasicFormatterImpl.FormatProcess" method="perform" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'perform()' has a NCSS line count of 110.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\spi\EntityEntryFactory.java">
+<violation beginline="25" endline="35" begincolumn="31" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.spi" class="EntityEntryFactory" method="createEntityEntry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\engine\spi\PersistenceContext.java">
+<violation beginline="252" endline="262" begincolumn="22" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.engine.spi" class="PersistenceContext" method="addEntry" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\internal\ExceptionConverterImpl.java">
+<violation beginline="81" endline="81" begincolumn="26" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.internal" class="ExceptionConverterImpl" method="convert" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'convert(HibernateException, LockOptions)' has a NCSS line count of 69.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\internal\SessionFactoryImpl.java">
+<violation beginline="209" endline="209" begincolumn="9" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.internal" class="SessionFactoryImpl" method="SessionFactoryImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'SessionFactoryImpl(MetadataImplementor, SessionFactoryOptions, BootstrapContext)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\internal\StatelessSessionImpl.java">
+<violation beginline="198" endline="198" begincolumn="16" endcolumn="22" rule="NcssCount" ruleset="Design" package="org.hibernate.internal" class="StatelessSessionImpl" method="insert" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'insert(String, Object)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\internal\log\StatisticsLogger.java">
+<violation beginline="83" endline="122" begincolumn="20" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.internal.log" class="StatisticsLogger" method="logStatistics" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (39 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\jpa\boot\internal\EntityManagerFactoryBuilderImpl.java">
+<violation beginline="863" endline="863" begincolumn="15" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.hibernate.jpa.boot.internal" class="EntityManagerFactoryBuilderImpl" method="normalizeDataAccess" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'normalizeDataAccess(Map&lt;?, ?&gt;, MergedSettings, PersistenceUnitDescriptor)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\loader\ast\internal\LoaderHelper.java">
+<violation beginline="217" endline="228" begincolumn="50" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.loader.ast.internal" class="LoaderHelper" method="loadByArrayParameter" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\loader\ast\internal\LoaderSelectBuilder.java">
+<violation beginline="270" endline="280" begincolumn="37" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.loader.ast.internal" class="LoaderSelectBuilder" method="createSelect" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\internal\MetadataContext.java">
+<violation beginline="289" endline="289" begincolumn="14" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.internal" class="MetadataContext" method="wrapUp" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'wrapUp()' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\AbstractEmbeddableMapping.java">
+<violation beginline="260" endline="260" begincolumn="20" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AbstractEmbeddableMapping" method="finishInitialization" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'finishInitialization(NavigableRole, Component, CompositeType, String, String[], EmbeddableMappingType, EmbeddableRepresentationStrategy, AttributeTypeValidator, ConcreteTableResolver, Consumer&lt;AttributeMapping&gt;, SuccessfulCompletionCallback, MappingModelCreationProcess)' has a NCSS line count of 102.
+</violation>
+<violation beginline="260" endline="272" begincolumn="40" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AbstractEmbeddableMapping" method="finishInitialization" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\AnyDiscriminatorPart.java">
+<violation beginline="73" endline="91" begincolumn="29" endcolumn="49" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AnyDiscriminatorPart" method="AnyDiscriminatorPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (18 parameters - threshold is 10).
+</violation>
+<violation beginline="115" endline="134" begincolumn="29" endcolumn="49" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AnyDiscriminatorPart" method="AnyDiscriminatorPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (19 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\AnyKeyPart.java">
+<violation beginline="59" endline="75" begincolumn="19" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AnyKeyPart" method="AnyKeyPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+<violation beginline="97" endline="114" begincolumn="19" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="AnyKeyPart" method="AnyKeyPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (17 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\BasicAttributeMapping.java">
+<violation beginline="69" endline="95" begincolumn="30" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="BasicAttributeMapping" method="BasicAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (26 parameters - threshold is 10).
+</violation>
+<violation beginline="126" endline="153" begincolumn="30" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="BasicAttributeMapping" method="BasicAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (27 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\BasicEntityIdentifierMappingImpl.java">
+<violation beginline="76" endline="89" begincolumn="41" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="BasicEntityIdentifierMappingImpl" method="BasicEntityIdentifierMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="108" endline="122" begincolumn="41" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="BasicEntityIdentifierMappingImpl" method="BasicEntityIdentifierMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\DiscriminatedAssociationAttributeMapping.java">
+<violation beginline="68" endline="80" begincolumn="49" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="DiscriminatedAssociationAttributeMapping" method="DiscriminatedAssociationAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\EmbeddableMappingTypeImpl.java">
+<violation beginline="112" endline="123" begincolumn="46" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EmbeddableMappingTypeImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="385" endline="385" begincolumn="18" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EmbeddableMappingTypeImpl" method="finishInitialization" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'finishInitialization(Component, CompositeType, String, String[], DependantValue, int, boolean[], boolean[], MappingModelCreationProcess)' has a NCSS line count of 107.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\EmbeddedAttributeMapping.java">
+<violation beginline="68" endline="80" begincolumn="33" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EmbeddedAttributeMapping" method="EmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="97" endline="109" begincolumn="33" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EmbeddedAttributeMapping" method="EmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\EntityVersionMappingImpl.java">
+<violation beginline="62" endline="74" begincolumn="33" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EntityVersionMappingImpl" method="EntityVersionMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="92" endline="105" begincolumn="33" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="EntityVersionMappingImpl" method="EntityVersionMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\ExplicitColumnDiscriminatorMappingImpl.java">
+<violation beginline="40" endline="53" begincolumn="47" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="ExplicitColumnDiscriminatorMappingImpl" method="ExplicitColumnDiscriminatorMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="71" endline="85" begincolumn="47" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="ExplicitColumnDiscriminatorMappingImpl" method="ExplicitColumnDiscriminatorMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\MappingModelCreationHelper.java">
+<violation beginline="192" endline="217" begincolumn="64" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildBasicAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (25 parameters - threshold is 10).
+</violation>
+<violation beginline="249" endline="275" begincolumn="64" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildBasicAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (26 parameters - threshold is 10).
+</violation>
+<violation beginline="335" endline="346" begincolumn="70" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildEmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="364" endline="377" begincolumn="70" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildEmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="527" endline="527" begincolumn="39" endcolumn="66" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildPluralAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'buildPluralAttributeMapping(String, int, int, Property, ManagedMappingType, PropertyAccess, CascadeStyle, FetchMode, MappingModelCreationProcess, Function&lt;PluralAttributeMappingImpl, PluralAttributeMappingImpl&gt;)' has a NCSS line count of 65.
+</violation>
+<violation beginline="527" endline="537" begincolumn="66" endcolumn="86" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildPluralAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="895" endline="895" begincolumn="24" endcolumn="51" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="interpretToOneKeyDescriptor" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'interpretToOneKeyDescriptor(ToOneAttributeMapping, Property, ToOne, PropertyAccess, Dialect, MappingModelCreationProcess)' has a NCSS line count of 70.
+</violation>
+<violation beginline="1158" endline="1168" begincolumn="81" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildEmbeddableForeignKeyDescriptor" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="1844" endline="1855" begincolumn="78" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildSingularAssociationAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="1872" endline="1884" begincolumn="78" endcolumn="76" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="MappingModelCreationHelper" method="buildSingularAssociationAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\PluralAttributeMappingImpl.java">
+<violation beginline="122" endline="138" begincolumn="35" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="PluralAttributeMappingImpl" method="PluralAttributeMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\SelectableMappingImpl.java">
+<violation beginline="37" endline="54" begincolumn="30" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="SelectableMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (17 parameters - threshold is 10).
+</violation>
+<violation beginline="77" endline="95" begincolumn="30" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="SelectableMappingImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (18 parameters - threshold is 10).
+</violation>
+<violation beginline="112" endline="122" begincolumn="38" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="138" endline="149" begincolumn="38" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="166" endline="177" begincolumn="38" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="194" endline="206" begincolumn="38" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\SelectableMappingsImpl.java">
+<violation beginline="55" endline="65" begincolumn="39" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingsImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="81" endline="92" begincolumn="39" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="SelectableMappingsImpl" method="from" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\ToOneAttributeMapping.java">
+<violation beginline="200" endline="211" begincolumn="30" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="ToOneAttributeMapping" method="ToOneAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="228" endline="228" begincolumn="9" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="ToOneAttributeMapping" method="ToOneAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'ToOneAttributeMapping(String, NavigableRole, int, int, ToOne, AttributeMetadata, FetchTiming, FetchStyle, EntityMappingType, ManagedMappingType, EntityPersister, PropertyAccess)' has a NCSS line count of 107.
+</violation>
+<violation beginline="228" endline="240" begincolumn="30" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="ToOneAttributeMapping" method="ToOneAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\mapping\internal\VirtualEmbeddedAttributeMapping.java">
+<violation beginline="24" endline="36" begincolumn="40" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="VirtualEmbeddedAttributeMapping" method="VirtualEmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="53" endline="65" begincolumn="40" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.mapping.internal" class="VirtualEmbeddedAttributeMapping" method="VirtualEmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\metamodel\model\domain\internal\SingularAttributeImpl.java">
+<violation beginline="56" endline="66" begincolumn="30" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.metamodel.model.domain.internal" class="SingularAttributeImpl" method="SingularAttributeImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\collection\AbstractCollectionPersister.java">
+<violation beginline="244" endline="244" begincolumn="9" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.collection" class="AbstractCollectionPersister" method="AbstractCollectionPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'AbstractCollectionPersister(Collection, CollectionDataAccess, RuntimeModelCreationContext)' has a NCSS line count of 161.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\AbstractEntityPersister.java">
+<violation beginline="305" endline="305" begincolumn="23" endcolumn="46" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'AbstractEntityPersister' has a NCSS line count of 2469 (Highest = 190).
+</violation>
+<violation beginline="457" endline="457" begincolumn="9" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister" method="AbstractEntityPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'AbstractEntityPersister(PersistentClass, EntityDataAccess, NaturalIdDataAccess, RuntimeModelCreationContext)' has a NCSS line count of 190.
+</violation>
+<violation beginline="3273" endline="3291" begincolumn="29" endcolumn="27" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister.TableMappingBuilder" method="TableMappingBuilder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (18 parameters - threshold is 10).
+</violation>
+<violation beginline="5225" endline="5225" begincolumn="29" endcolumn="58" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister" method="generateNonIdAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generateNonIdAttributeMapping(NonIdentifierAttribute, Property, int, int, MappingModelCreationProcess)' has a NCSS line count of 91.
+</violation>
+<violation beginline="5469" endline="5482" begincolumn="66" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister" method="buildEmbeddedAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="5503" endline="5514" begincolumn="69" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity" class="AbstractEntityPersister" method="buildSingularAssociationAttributeMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\JoinedSubclassEntityPersister.java">
+<violation beginline="148" endline="148" begincolumn="9" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="JoinedSubclassEntityPersister" method="JoinedSubclassEntityPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'JoinedSubclassEntityPersister(PersistentClass, EntityDataAccess, NaturalIdDataAccess, RuntimeModelCreationContext)' has a NCSS line count of 233.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\SingleTableEntityPersister.java">
+<violation beginline="104" endline="104" begincolumn="9" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="SingleTableEntityPersister" method="SingleTableEntityPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'SingleTableEntityPersister(PersistentClass, EntityDataAccess, NaturalIdDataAccess, RuntimeModelCreationContext)' has a NCSS line count of 144.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\UnionSubclassEntityPersister.java">
+<violation beginline="88" endline="88" begincolumn="9" endcolumn="37" rule="NcssCount" ruleset="Design" package="org.hibernate.persister.entity" class="UnionSubclassEntityPersister" method="UnionSubclassEntityPersister" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'UnionSubclassEntityPersister(PersistentClass, EntityDataAccess, NaturalIdDataAccess, RuntimeModelCreationContext)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\mutation\EntityTableMapping.java">
+<violation beginline="59" endline="78" begincolumn="27" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity.mutation" class="EntityTableMapping" method="EntityTableMapping" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (19 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\mutation\MergeCoordinator.java">
+<violation beginline="31" endline="42" begincolumn="56" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity.mutation" class="MergeCoordinator" method="analyzeUpdateValues" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\persister\entity\mutation\UpdateCoordinatorStandard.java">
+<violation beginline="247" endline="258" begincolumn="41" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity.mutation" class="UpdateCoordinatorStandard" method="performUpdate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="603" endline="614" begincolumn="56" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.persister.entity.mutation" class="UpdateCoordinatorStandard" method="analyzeUpdateValues" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\procedure\internal\NamedCallableQueryMementoImpl.java">
+<violation beginline="46" endline="62" begincolumn="38" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.procedure.internal" class="NamedCallableQueryMementoImpl" method="NamedCallableQueryMementoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\procedure\internal\PostgreSQLCallableStatementSupport.java">
+<violation beginline="63" endline="63" begincolumn="32" endcolumn="45" rule="NcssCount" ruleset="Design" package="org.hibernate.procedure.internal" class="PostgreSQLCallableStatementSupport" method="interpretCall" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'interpretCall(ProcedureCallImplementor&lt;?&gt;)' has a NCSS line count of 78.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\proxy\pojo\bytebuddy\SerializableProxy.java">
+<violation beginline="35" endline="46" begincolumn="26" endcolumn="34" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.proxy.pojo.bytebuddy" class="SerializableProxy" method="SerializableProxy" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\criteria\internal\NamedCriteriaQueryMementoImpl.java">
+<violation beginline="39" endline="55" begincolumn="38" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.criteria.internal" class="NamedCriteriaQueryMementoImpl" method="NamedCriteriaQueryMementoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\hql\internal\NamedHqlQueryMementoImpl.java">
+<violation beginline="44" endline="60" begincolumn="33" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.hql.internal" class="NamedHqlQueryMementoImpl" method="NamedHqlQueryMementoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\hql\internal\SemanticQueryBuilder.java">
+<violation beginline="247" endline="247" begincolumn="14" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.hibernate.query.hql.internal" class="SemanticQueryBuilder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'SemanticQueryBuilder' has a NCSS line count of 2622 (Highest = 62).
+</violation>
+<violation beginline="493" endline="493" begincolumn="31" endcolumn="51" rule="NcssCount" ruleset="Design" package="org.hibernate.query.hql.internal" class="SemanticQueryBuilder" method="visitInsertStatement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitInsertStatement(InsertStatementContext)' has a NCSS line count of 60.
+</violation>
+<violation beginline="1502" endline="1502" begincolumn="27" endcolumn="60" rule="NcssCount" ruleset="Design" package="org.hibernate.query.hql.internal" class="SemanticQueryBuilder" method="resolveOrderByOrGroupByExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveOrderByOrGroupByExpression(ParseTree, boolean, boolean)' has a NCSS line count of 60.
+</violation>
+<violation beginline="5932" endline="5932" begincolumn="20" endcolumn="44" rule="NcssCount" ruleset="Design" package="org.hibernate.query.hql.internal" class="SemanticQueryBuilder" method="visitMapKeyNavigablePath" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitMapKeyNavigablePath(MapKeyNavigablePathContext)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\named\AbstractNamedQueryMemento.java">
+<violation beginline="36" endline="47" begincolumn="37" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.named" class="AbstractNamedQueryMemento" method="AbstractNamedQueryMemento" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sql\internal\NamedNativeQueryMementoImpl.java">
+<violation beginline="36" endline="53" begincolumn="36" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.sql.internal" class="NamedNativeQueryMementoImpl" method="NamedNativeQueryMementoImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (17 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sql\internal\ParameterParser.java">
+<violation beginline="51" endline="51" begincolumn="21" endcolumn="26" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sql.internal" class="ParameterParser" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(String, ParameterRecognizer, boolean)' has a NCSS line count of 104.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\function\SelfRenderingSqmOrderedSetAggregateFunction.java">
+<violation beginline="39" endline="49" begincolumn="52" endcolumn="16" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.sqm.function" class="SelfRenderingSqmOrderedSetAggregateFunction" method="SelfRenderingSqmOrderedSetAggregateFunction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\function\SelfRenderingSqmWindowFunction.java">
+<violation beginline="36" endline="47" begincolumn="39" endcolumn="16" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.sqm.function" class="SelfRenderingSqmWindowFunction" method="SelfRenderingSqmWindowFunction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\internal\SqmCriteriaNodeBuilder.java">
+<violation beginline="182" endline="182" begincolumn="14" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.internal" class="SqmCriteriaNodeBuilder" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'SqmCriteriaNodeBuilder' has a NCSS line count of 1809 (Highest = 40).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\mutation\internal\cte\CteInsertHandler.java">
+<violation beginline="129" endline="129" begincolumn="9" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.cte" class="CteInsertHandler" method="CteInsertHandler" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'CteInsertHandler(CteTable, SqmInsertStatement&lt;?&gt;, DomainParameterXref, DomainQueryExecutionContext, MutableObject&lt;JdbcParameterBindings&gt;)' has a NCSS line count of 126.
+</violation>
+<violation beginline="638" endline="638" begincolumn="19" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.cte" class="CteInsertHandler" method="addDmlCtes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'addDmlCtes(CteContainer, CteStatement, EntityPersister, List&lt;Entry&lt;List&lt;CteColumn&gt;, Assignment&gt;&gt;, boolean, MultiTableSqmMutationConverter, SessionFactoryImplementor)' has a NCSS line count of 131.
+</violation>
+<violation beginline="1046" endline="1046" begincolumn="15" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.cte" class="CteInsertHandler" method="handleConflictClause" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleConflictClause(CteTable, InsertSelectStatement, CteStatement, EntityPersister, int, ConflictClause, CteContainer)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\mutation\internal\cte\CteUpdateHandler.java">
+<violation beginline="75" endline="75" begincolumn="17" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.cte" class="CteUpdateHandler" method="addDmlCtes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'addDmlCtes(CteContainer, CteStatement, MultiTableSqmMutationConverter, Map&lt;SqmParameter&lt;?&gt;, List&lt;JdbcParameter&gt;&gt;, SessionFactoryImplementor)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\mutation\internal\inline\InlineUpdateHandler.java">
+<violation beginline="250" endline="250" begincolumn="23" endcolumn="41" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.inline" class="InlineUpdateHandler" method="createTableUpdater" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createTableUpdater(String, Supplier&lt;Consumer&lt;SelectableConsumer&gt;&gt;, EntityPersister, TableGroup, Map&lt;TableReference, List&lt;Assignment&gt;&gt;, ExecutionContext)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\mutation\internal\temptable\TableBasedInsertHandler.java">
+<violation beginline="132" endline="132" begincolumn="9" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.temptable" class="TableBasedInsertHandler" method="TableBasedInsertHandler" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'TableBasedInsertHandler(SqmInsertStatement&lt;?&gt;, DomainParameterXref, TemporaryTable, TemporaryTableStrategy, boolean, Function&lt;SharedSessionContractImplementor, String&gt;, DomainQueryExecutionContext, MutableObject&lt;JdbcParameterBindings&gt;)' has a NCSS line count of 108.
+</violation>
+<violation beginline="487" endline="487" begincolumn="28" endcolumn="51" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.temptable" class="TableBasedInsertHandler" method="createRootTableInserter" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createRootTableInserter(InsertSelectStatement, TableGroup, ConflictClause, boolean, String, String[], Map&lt;String, List&lt;Assignment&gt;&gt;, ExecutionContext)' has a NCSS line count of 93.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\mutation\internal\temptable\TableBasedUpdateHandler.java">
+<violation beginline="102" endline="102" begincolumn="9" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.mutation.internal.temptable" class="TableBasedUpdateHandler" method="TableBasedUpdateHandler" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'TableBasedUpdateHandler(SqmUpdateStatement&lt;?&gt;, DomainParameterXref, TemporaryTable, TemporaryTableStrategy, boolean, Function&lt;SharedSessionContractImplementor, String&gt;, DomainQueryExecutionContext, MutableObject&lt;JdbcParameterBindings&gt;)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\produce\function\internal\PatternRenderer.java">
+<violation beginline="193" endline="193" begincolumn="15" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.produce.function.internal" class="PatternRenderer" method="render" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'render(SqlAppender, List&lt;? extends SqlAstNode&gt;, Predicate, List&lt;SortSpecification&gt;, Boolean, Boolean, SqlAstTranslator&lt;?&gt;)' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\sql\BaseSqmToSqlAstConverter.java">
+<violation beginline="466" endline="466" begincolumn="23" endcolumn="47" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'BaseSqmToSqlAstConverter' has a NCSS line count of 3750 (Highest = 160).
+</violation>
+<violation beginline="3383" endline="3383" begincolumn="21" endcolumn="41" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="consumeAttributeJoin" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'consumeAttributeJoin(SqmAttributeJoin&lt;?, ?&gt;, TableGroup, TableGroup, boolean)' has a NCSS line count of 76.
+</violation>
+<violation beginline="4237" endline="4237" begincolumn="21" endcolumn="37" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="createExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createExpression(TableGroup, NavigablePath, ModelPart, SqmPath&lt;?&gt;)' has a NCSS line count of 105.
+</violation>
+<violation beginline="5012" endline="5012" begincolumn="23" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="createLateralJoinExpression" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createLateralJoinExpression(AbstractSqmSpecificPluralPartPath&lt;?&gt;, boolean, String)' has a NCSS line count of 74.
+</violation>
+<violation beginline="6708" endline="6708" begincolumn="17" endcolumn="44" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="transformDurationArithmetic" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'transformDurationArithmetic(SqmBinaryArithmetic&lt;?&gt;)' has a NCSS line count of 61.
+</violation>
+<violation beginline="7483" endline="7483" begincolumn="18" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="visitJunctionPredicate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitJunctionPredicate(SqmJunctionPredicate)' has a NCSS line count of 160.
+</violation>
+<violation beginline="8403" endline="8403" begincolumn="16" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql" class="BaseSqmToSqlAstConverter" method="createFetch" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createFetch(FetchParent, Fetchable, Boolean)' has a NCSS line count of 92.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\sql\internal\SqlAstQueryPartProcessingStateImpl.java">
+<violation beginline="93" endline="93" begincolumn="22" endcolumn="41" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.sql.internal" class="SqlAstQueryPartProcessingStateImpl" method="resolveSqlSelection" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveSqlSelection(Expression, JavaType&lt;?&gt;, FetchParent, TypeConfiguration)' has a NCSS line count of 75.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\tree\cte\SqmCteStatement.java">
+<violation beginline="335" endline="335" begincolumn="14" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.tree.cte" class="SqmCteStatement" method="appendHqlString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'appendHqlString(StringBuilder, SqmRenderContext)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\tree\expression\SqmFunction.java">
+<violation beginline="74" endline="74" begincolumn="14" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.hibernate.query.sqm.tree.expression" class="SqmFunction" method="appendHqlString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'appendHqlString(StringBuilder, SqmRenderContext)' has a NCSS line count of 84.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\tuple\internal\AnonymousTupleEmbeddableValuedModelPart.java">
+<violation beginline="84" endline="94" begincolumn="48" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.sqm.tuple.internal" class="AnonymousTupleEmbeddableValuedModelPart" method="AnonymousTupleEmbeddableValuedModelPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\query\sqm\tuple\internal\AnonymousTupleTableGroupProducer.java">
+<violation beginline="146" endline="156" begincolumn="41" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.query.sqm.tuple.internal" class="AnonymousTupleTableGroupProducer" method="createModelPart" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\Template.java">
+<violation beginline="144" endline="144" begincolumn="23" endcolumn="48" rule="NcssCount" ruleset="Design" package="org.hibernate.sql" class="Template" method="renderWhereStringTemplate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderWhereStringTemplate(String, String, Dialect, TypeConfiguration)' has a NCSS line count of 135.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\spi\AbstractSqlAstTranslator.java">
+<violation beginline="246" endline="246" begincolumn="23" endcolumn="47" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'AbstractSqlAstTranslator' has a NCSS line count of 4613 (Highest = 129).
+</violation>
+<violation beginline="2091" endline="2091" begincolumn="14" endcolumn="31" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="visitCteContainer" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitCteContainer(CteContainer)' has a NCSS line count of 85.
+</violation>
+<violation beginline="2582" endline="2582" begincolumn="17" endcolumn="56" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="emulateSearchClauseOrderWithRowAndArray" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emulateSearchClauseOrderWithRowAndArray(SelectClause)' has a NCSS line count of 75.
+</violation>
+<violation beginline="2718" endline="2718" begincolumn="15" endcolumn="49" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="emulateSearchClauseOrderWithString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emulateSearchClauseOrderWithString(SelectClause)' has a NCSS line count of 73.
+</violation>
+<violation beginline="2913" endline="2913" begincolumn="17" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="emulateCycleClauseWithRowAndArray" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emulateCycleClauseWithRowAndArray(SelectClause)' has a NCSS line count of 68.
+</violation>
+<violation beginline="3971" endline="3971" begincolumn="17" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="emulateTupleComparison" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emulateTupleComparison(List&lt;? extends SqlAstNode&gt;, List&lt;? extends SqlAstNode&gt;, ComparisonOperator, boolean)' has a NCSS line count of 72.
+</violation>
+<violation beginline="4956" endline="4956" begincolumn="17" endcolumn="54" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="emulateFetchOffsetWithWindowFunctions" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emulateFetchOffsetWithWindowFunctions(QueryPart, Expression, Expression, FetchClauseType, boolean)' has a NCSS line count of 129.
+</violation>
+<violation beginline="5175" endline="5175" begincolumn="17" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="visitSqlSelections" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitSqlSelections(SelectClause)' has a NCSS line count of 70.
+</violation>
+<violation beginline="5898" endline="5898" begincolumn="17" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="renderJoinedTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'renderJoinedTableGroup(TableGroupJoin, Predicate, List&lt;TableGroupJoin&gt;)' has a NCSS line count of 75.
+</violation>
+<violation beginline="6434" endline="6434" begincolumn="22" endcolumn="56" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="determineLateralEmulationPredicate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'determineLateralEmulationPredicate(TableGroup)' has a NCSS line count of 86.
+</violation>
+<violation beginline="7675" endline="7675" begincolumn="14" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="visitInListPredicate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitInListPredicate(InListPredicate)' has a NCSS line count of 76.
+</violation>
+<violation beginline="8318" endline="8318" begincolumn="14" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.ast.spi" class="AbstractSqlAstTranslator" method="visitRelationalPredicate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitRelationalPredicate(ComparisonPredicate)' has a NCSS line count of 75.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\tree\cte\CteStatement.java">
+<violation beginline="50" endline="61" begincolumn="21" endcolumn="25" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.cte" class="CteStatement" method="CteStatement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\tree\from\CollectionTableGroup.java">
+<violation beginline="25" endline="36" begincolumn="29" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.from" class="CollectionTableGroup" method="CollectionTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\tree\from\FunctionTableGroup.java">
+<violation beginline="25" endline="35" begincolumn="27" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.from" class="FunctionTableGroup" method="FunctionTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\tree\from\LazyTableGroup.java">
+<violation beginline="43" endline="53" begincolumn="23" endcolumn="32" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.from" class="LazyTableGroup" method="LazyTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\ast\tree\from\StandardTableGroup.java">
+<violation beginline="54" endline="64" begincolumn="27" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.from" class="StandardTableGroup" method="StandardTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="74" endline="85" begincolumn="27" endcolumn="45" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.ast.tree.from" class="StandardTableGroup" method="StandardTableGroup" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\exec\internal\JdbcOperationQuerySelect.java">
+<violation beginline="60" endline="70" begincolumn="33" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.exec.internal" class="JdbcOperationQuerySelect" method="JdbcOperationQuerySelect" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\exec\spi\JdbcSelectExecutor.java">
+<violation beginline="192" endline="192" begincolumn="27" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.exec.spi" class="JdbcSelectExecutor" method="getScrollContext" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getScrollContext(ExecutionContext)' has a NCSS line count of 84.
+</violation>
+<violation beginline="212" endline="228" begincolumn="37" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.exec.spi" class="JdbcSelectExecutor.ScrollableExecutionContext" method="ScrollableExecutionContext" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\basic\BasicFetch.java">
+<violation beginline="61" endline="71" begincolumn="19" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.basic" class="BasicFetch" method="BasicFetch" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\collection\internal\ArrayInitializer.java">
+<violation beginline="38" endline="48" begincolumn="25" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.collection.internal" class="ArrayInitializer" method="ArrayInitializer" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\collection\internal\BagInitializer.java">
+<violation beginline="40" endline="50" begincolumn="23" endcolumn="38" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.collection.internal" class="BagInitializer" method="BagInitializer" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\collection\internal\ListInitializer.java">
+<violation beginline="40" endline="50" begincolumn="24" endcolumn="23" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.collection.internal" class="ListInitializer" method="ListInitializer" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\collection\internal\MapInitializer.java">
+<violation beginline="40" endline="50" begincolumn="23" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.collection.internal" class="MapInitializer" method="MapInitializer" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\sql\results\graph\entity\internal\EntityInitializerImpl.java">
+<violation beginline="202" endline="202" begincolumn="9" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.results.graph.entity.internal" class="EntityInitializerImpl" method="EntityInitializerImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'EntityInitializerImpl(EntityResultGraphNode, String, Fetch, Fetch, DomainResult&lt;?&gt;, DomainResult&lt;Object&gt;, NotFoundAction, boolean, InitializerParent&lt;?&gt;, boolean, AssemblerCreationState)' has a NCSS line count of 159.
+</violation>
+<violation beginline="202" endline="213" begincolumn="30" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.sql.results.graph.entity.internal" class="EntityInitializerImpl" method="EntityInitializerImpl" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="983" endline="983" begincolumn="14" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.hibernate.sql.results.graph.entity.internal" class="EntityInitializerImpl" method="resolveInstance" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveInstance(Object, EntityInitializerData)' has a NCSS line count of 77.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tool\schema\internal\AbstractSchemaMigrator.java">
+<violation beginline="143" endline="156" begincolumn="70" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="AbstractSchemaMigrator" method="performTablesMigration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+<violation beginline="511" endline="520" begincolumn="39" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="AbstractSchemaMigrator" method="createSchemaAndCatalog" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tool\schema\internal\GroupedSchemaMigratorImpl.java">
+<violation beginline="41" endline="54" begincolumn="61" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="GroupedSchemaMigratorImpl" method="performTablesMigration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tool\schema\internal\IndividuallySchemaMigratorImpl.java">
+<violation beginline="37" endline="50" begincolumn="61" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="IndividuallySchemaMigratorImpl" method="performTablesMigration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tool\schema\internal\SchemaCreatorImpl.java">
+<violation beginline="348" endline="358" begincolumn="44" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="SchemaCreatorImpl" method="createTableConstraints" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="387" endline="397" begincolumn="34" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="SchemaCreatorImpl" method="createTables" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="428" endline="438" begincolumn="37" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="SchemaCreatorImpl" method="createSequences" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tool\schema\internal\SchemaDropperImpl.java">
+<violation beginline="320" endline="330" begincolumn="35" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="SchemaDropperImpl" method="dropSequences" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="345" endline="355" begincolumn="32" endcolumn="31" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tool.schema.internal" class="SchemaDropperImpl" method="dropTables" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tuple\StandardProperty.java">
+<violation beginline="31" endline="42" begincolumn="25" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.tuple" class="StandardProperty" method="StandardProperty" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\tuple\entity\EntityMetamodel.java">
+<violation beginline="161" endline="161" begincolumn="9" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.hibernate.tuple.entity" class="EntityMetamodel" method="EntityMetamodel" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'EntityMetamodel(PersistentClass, RuntimeModelCreationContext, Function&lt;String, Generator&gt;)' has a NCSS line count of 161.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\OneToOneType.java">
+<violation beginline="31" endline="41" begincolumn="21" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.type" class="OneToOneType" method="OneToOneType" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\SpecialOneToOneType.java">
+<violation beginline="26" endline="36" begincolumn="28" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.type" class="SpecialOneToOneType" method="SpecialOneToOneType" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\StandardBasicTypes.java">
+<violation beginline="808" endline="808" begincolumn="21" endcolumn="26" rule="NcssCount" ruleset="Design" package="org.hibernate.type" class="StandardBasicTypes" method="prime" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'prime(TypeConfiguration)' has a NCSS line count of 94.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\descriptor\jdbc\JsonHelper.java">
+<violation beginline="57" endline="57" begincolumn="23" endcolumn="47" rule="NcssCount" ruleset="Design" package="org.hibernate.type.descriptor.jdbc" class="JsonHelper" method="consumeJsonDocumentItems" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'consumeJsonDocumentItems(JsonDocumentReader, EmbeddableMappingType, boolean, WrapperOptions)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\descriptor\jdbc\StructJdbcType.java">
+<violation beginline="249" endline="249" begincolumn="14" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.hibernate.type.descriptor.jdbc" class="StructJdbcType" method="injectAttributeValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'injectAttributeValue(ValuedModelPart, StructAttributeValues, int, Object[], int, WrapperOptions)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\descriptor\jdbc\XmlHelper.java">
+<violation beginline="428" endline="428" begincolumn="21" endcolumn="31" rule="NcssCount" ruleset="Design" package="org.hibernate.type.descriptor.jdbc" class="XmlHelper" method="fromString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'fromString(EmbeddableMappingType, String, boolean, WrapperOptions, Object[], int)' has a NCSS line count of 80.
+</violation>
+<violation beginline="815" endline="815" begincolumn="22" endcolumn="49" rule="NcssCount" ruleset="Design" package="org.hibernate.type.descriptor.jdbc" class="XmlHelper" method="convertedBasicValueToString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'convertedBasicValueToString(XMLAppender, Object, WrapperOptions, JavaType&lt;Object&gt;, JdbcType)' has a NCSS line count of 96.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\format\OsonDocumentWriter.java">
+<violation beginline="142" endline="142" begincolumn="19" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.hibernate.type.format" class="OsonDocumentWriter" method="serializeValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'serializeValue(Object, JavaType&lt;T&gt;, JdbcType, WrapperOptions)' has a NCSS line count of 96.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\format\StringJsonDocumentWriter.java">
+<violation beginline="258" endline="258" begincolumn="19" endcolumn="46" rule="NcssCount" ruleset="Design" package="org.hibernate.type.format" class="StringJsonDocumentWriter" method="convertedBasicValueToString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'convertedBasicValueToString(Object, WrapperOptions, JsonAppender, JavaType&lt;T&gt;, JdbcType)' has a NCSS line count of 91.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\format\jaxb\JaxbXmlFormatMapper.java">
+<violation beginline="75" endline="75" begincolumn="15" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.hibernate.type.format.jaxb" class="JaxbXmlFormatMapper" method="fromString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'fromString(CharSequence, JavaType&lt;T&gt;, WrapperOptions)' has a NCSS line count of 107.
+</violation>
+<violation beginline="277" endline="277" begincolumn="20" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.hibernate.type.format.jaxb" class="JaxbXmlFormatMapper" method="toString" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'toString(T, JavaType&lt;T&gt;, WrapperOptions)' has a NCSS line count of 125.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-core\src\main\java\org\hibernate\type\spi\TypeConfiguration.java">
+<violation beginline="332" endline="332" begincolumn="22" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.hibernate.type.spi" class="TypeConfiguration" method="resolveCastTargetType" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveCastTargetType(String)' has a NCSS line count of 66.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\configuration\internal\metadata\ValueMetadataGenerator.java">
+<violation beginline="51" endline="61" begincolumn="22" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.configuration.internal.metadata" class="ValueMetadataGenerator" method="addValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\internal\entities\RelationDescription.java">
+<violation beginline="47" endline="59" begincolumn="42" endcolumn="20" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.internal.entities" class="RelationDescription" method="toMany" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\internal\entities\mapper\relation\lazy\initializor\SortedMapCollectionInitializor.java">
+<violation beginline="25" endline="32" begincolumn="39" endcolumn="66" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.internal.entities.mapper.relation.lazy.initializor" class="SortedMapCollectionInitializor" method="SortedMapCollectionInitializor" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\internal\synchronization\work\FakeBidirectionalRelationWorkUnit.java">
+<violation beginline="33" endline="43" begincolumn="42" endcolumn="33" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.internal.synchronization.work" class="FakeBidirectionalRelationWorkUnit" method="FakeBidirectionalRelationWorkUnit" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\query\internal\impl\AbstractAuditAssociationQuery.java">
+<violation beginline="70" endline="81" begincolumn="38" endcolumn="43" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.query.internal.impl" class="AbstractAuditAssociationQuery" method="AbstractAuditAssociationQuery" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="336" endline="336" begincolumn="23" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.hibernate.envers.query.internal.impl" class="AbstractAuditAssociationQuery" method="createEntityJoin" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createEntityJoin(Configuration)' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\query\internal\impl\EntitiesAtRevisionAssociationQuery.java">
+<violation beginline="30" endline="41" begincolumn="43" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.query.internal.impl" class="EntitiesAtRevisionAssociationQuery" method="EntitiesAtRevisionAssociationQuery" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\query\internal\impl\RevisionsOfEntityAssociationQuery.java">
+<violation beginline="26" endline="37" begincolumn="42" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.query.internal.impl" class="RevisionsOfEntityAssociationQuery" method="RevisionsOfEntityAssociationQuery" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\strategy\internal\DefaultAuditStrategy.java">
+<violation beginline="79" endline="91" begincolumn="44" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.internal" class="DefaultAuditStrategy" method="addEntityAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="119" endline="132" begincolumn="49" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.internal" class="DefaultAuditStrategy" method="addAssociationAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\strategy\internal\ValidityAuditStrategy.java">
+<violation beginline="294" endline="306" begincolumn="44" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.internal" class="ValidityAuditStrategy" method="addEntityAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="318" endline="331" begincolumn="49" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.internal" class="ValidityAuditStrategy" method="addAssociationAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\strategy\spi\AuditStrategy.java">
+<violation beginline="105" endline="117" begincolumn="37" endcolumn="22" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.spi" class="AuditStrategy" method="addEntityAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="137" endline="150" begincolumn="42" endcolumn="42" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.envers.strategy.spi" class="AuditStrategy" method="addAssociationAtRevisionRestriction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (13 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\hibernate-ant\src\main\java\org\hibernate\tool\enhance\EnhancementTask.java">
+<violation beginline="114" endline="114" begincolumn="14" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.hibernate.tool.enhance" class="EnhancementTask" method="execute" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'execute()' has a NCSS line count of 66.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\hibernate-ant\src\main\java\org\hibernate\tool\hbm2ddl\SchemaExport.java">
+<violation beginline="517" endline="517" begincolumn="33" endcolumn="53" rule="NcssCount" ruleset="Design" package="org.hibernate.tool.hbm2ddl" class="SchemaExport.CommandLineArgs" method="parseCommandLineArgs" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parseCommandLineArgs(String[])' has a NCSS line count of 78.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\AbstractCriteriaMethod.java">
+<violation beginline="26" endline="42" begincolumn="31" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="AbstractCriteriaMethod" method="AbstractCriteriaMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (18 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\AbstractFinderMethod.java">
+<violation beginline="23" endline="39" begincolumn="22" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="AbstractFinderMethod" method="AbstractFinderMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (16 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\AbstractQueryMethod.java">
+<violation beginline="58" endline="71" begincolumn="21" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="AbstractQueryMethod" method="AbstractQueryMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+<violation beginline="709" endline="709" begincolumn="17" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.hibernate.processor.annotation" class="AbstractQueryMethod" method="executeSelect" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'executeSelect(StringBuilder, List&lt;String&gt;, String, boolean, boolean)' has a NCSS line count of 61.
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\AnnotationMetaEntity.java">
+<violation beginline="123" endline="123" begincolumn="14" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.hibernate.processor.annotation" class="AnnotationMetaEntity" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'AnnotationMetaEntity' has a NCSS line count of 1793 (Highest = 58).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\CriteriaDeleteMethod.java">
+<violation beginline="19" endline="33" begincolumn="22" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="CriteriaDeleteMethod" method="CriteriaDeleteMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (15 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\CriteriaFinderMethod.java">
+<violation beginline="19" endline="36" begincolumn="22" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="CriteriaFinderMethod" method="CriteriaFinderMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (19 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\IdFinderMethod.java">
+<violation beginline="23" endline="36" begincolumn="23" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="IdFinderMethod" method="IdFinderMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (15 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\LifecycleMethod.java">
+<violation beginline="53" endline="67" begincolumn="24" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="LifecycleMethod" method="LifecycleMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (14 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\NaturalIdFinderMethod.java">
+<violation beginline="23" endline="36" begincolumn="30" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="NaturalIdFinderMethod" method="NaturalIdFinderMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (15 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\QueryMethod.java">
+<violation beginline="29" endline="51" begincolumn="13" endcolumn="21" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="QueryMethod" method="QueryMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (19 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\hibernate-orm-7.2.6.Final\tooling\metamodel-generator\src\main\java\org\hibernate\processor\annotation\RepositoryConstructor.java">
+<violation beginline="38" endline="49" begincolumn="30" endcolumn="29" rule="ExcessiveParameterList" ruleset="Design" package="org.hibernate.processor.annotation" class="RepositoryConstructor" method="RepositoryConstructor" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<error filename="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java" msg="SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java:14:77: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Attribute], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:14:77]Cloneable&lt;Attribute&gt;]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java:14:77]
+---------------------------------">
+<![CDATA[net.sourceforge.pmd.lang.ast.SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java:14:77: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Attribute], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:14:77]Cloneable<Attribute>]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Attribute.java:14:77]
+---------------------------------
+	at net.sourceforge.pmd.lang.ast.SemanticErrorReporter$2.error(SemanticErrorReporter.java:129)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.makeFromClassType(TypesFromAst.java:167)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAstImpl(TypesFromAst.java:59)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAst(TypesFromAst.java:52)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.buildTypeFromAstInternal(InternalApiBridge.java:213)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:187)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:103)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visitReferenceType(JavaVisitorBase.java:100)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:128)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.acceptVisitor(ASTClassType.java:155)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.lambda$getSuperInterfaceTypes$15(AstClassSym.java:461)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:476)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:443)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.getSuperInterfaceTypes(AstClassSym.java:461)
+	at net.sourceforge.pmd.lang.java.types.ClassTypeImpl.getSuperInterfaces(ClassTypeImpl.java:302)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SuperTypesEnumerator$3.iterable(SuperTypesEnumerator.java:60)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.hidingWalkResolvers(JavaResolvers.java:385)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.inheritedMembersResolvers(JavaResolvers.java:358)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymTableFactory.typeBody(SymTableFactory.java:394)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:301)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:56)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassDeclaration.acceptVisitor(ASTClassDeclaration.java:39)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.ast.AstVisitorBase.visitChildren(AstVisitorBase.java:31)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:262)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.acceptVisitor(ASTCompilationUnit.java:106)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.traverse(SymbolTableResolver.java:186)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver.traverse(SymbolTableResolver.java:105)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$1(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:177)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:161)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:70)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)
+	at net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+</error>
+<error filename="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java" msg="SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java:17:69: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Column], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:17:69]Cloneable&lt;Column&gt;]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java:17:69]
+---------------------------------">
+<![CDATA[net.sourceforge.pmd.lang.ast.SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java:17:69: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Column], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:17:69]Cloneable<Column>]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Column.java:17:69]
+---------------------------------
+	at net.sourceforge.pmd.lang.ast.SemanticErrorReporter$2.error(SemanticErrorReporter.java:129)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.makeFromClassType(TypesFromAst.java:167)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAstImpl(TypesFromAst.java:59)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAst(TypesFromAst.java:52)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.buildTypeFromAstInternal(InternalApiBridge.java:213)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:187)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:103)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visitReferenceType(JavaVisitorBase.java:100)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:128)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.acceptVisitor(ASTClassType.java:155)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.lambda$getSuperInterfaceTypes$15(AstClassSym.java:461)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:476)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:443)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.getSuperInterfaceTypes(AstClassSym.java:461)
+	at net.sourceforge.pmd.lang.java.types.ClassTypeImpl.getSuperInterfaces(ClassTypeImpl.java:302)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SuperTypesEnumerator$3.iterable(SuperTypesEnumerator.java:60)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.hidingWalkResolvers(JavaResolvers.java:385)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.inheritedMembersResolvers(JavaResolvers.java:358)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymTableFactory.typeBody(SymTableFactory.java:394)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:301)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:56)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassDeclaration.acceptVisitor(ASTClassDeclaration.java:39)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.ast.AstVisitorBase.visitChildren(AstVisitorBase.java:31)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:262)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.acceptVisitor(ASTCompilationUnit.java:106)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.traverse(SymbolTableResolver.java:186)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver.traverse(SymbolTableResolver.java:105)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$1(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:177)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:161)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:70)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)
+	at net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+</error>
+<error filename="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java" msg="SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java:17:72: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Key], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:17:72]Cloneable&lt;Key&gt;]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java:17:72]
+---------------------------------">
+<![CDATA[net.sourceforge.pmd.lang.ast.SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java:17:72: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.Key], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:17:72]Cloneable<Key>]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\Key.java:17:72]
+---------------------------------
+	at net.sourceforge.pmd.lang.ast.SemanticErrorReporter$2.error(SemanticErrorReporter.java:129)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.makeFromClassType(TypesFromAst.java:167)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAstImpl(TypesFromAst.java:59)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAst(TypesFromAst.java:52)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.buildTypeFromAstInternal(InternalApiBridge.java:213)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:187)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:103)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visitReferenceType(JavaVisitorBase.java:100)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:128)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.acceptVisitor(ASTClassType.java:155)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.lambda$getSuperInterfaceTypes$15(AstClassSym.java:461)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:476)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:443)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.getSuperInterfaceTypes(AstClassSym.java:461)
+	at net.sourceforge.pmd.lang.java.types.ClassTypeImpl.getSuperInterfaces(ClassTypeImpl.java:302)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SuperTypesEnumerator$3.iterable(SuperTypesEnumerator.java:60)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.hidingWalkResolvers(JavaResolvers.java:385)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.inheritedMembersResolvers(JavaResolvers.java:358)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymTableFactory.typeBody(SymTableFactory.java:394)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:301)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:56)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassDeclaration.acceptVisitor(ASTClassDeclaration.java:39)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.ast.AstVisitorBase.visitChildren(AstVisitorBase.java:31)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:262)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.acceptVisitor(ASTCompilationUnit.java:106)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.traverse(SymbolTableResolver.java:186)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver.traverse(SymbolTableResolver.java:105)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$1(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:177)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:161)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:70)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)
+	at net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+</error>
+<error filename="sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java" msg="SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java:19:109: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.TypeSpecification], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:19:109]Cloneable&lt;TypeSpecification&gt;]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java:19:109]
+---------------------------------">
+<![CDATA[net.sourceforge.pmd.lang.ast.SemanticException: Error in file 'sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java': at sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java:19:109: Cannot parameterize java/lang/Cloneable with [org.hibernate.envers.boot.model.TypeSpecification], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:19:109]Cloneable<TypeSpecification>]
+	[2:Location=!debug only! sources\hibernate-orm-7.2.6.Final\hibernate-envers\src\main\java\org\hibernate\envers\boot\model\TypeSpecification.java:19:109]
+---------------------------------
+	at net.sourceforge.pmd.lang.ast.SemanticErrorReporter$2.error(SemanticErrorReporter.java:129)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.makeFromClassType(TypesFromAst.java:167)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAstImpl(TypesFromAst.java:59)
+	at net.sourceforge.pmd.lang.java.ast.TypesFromAst.fromAst(TypesFromAst.java:52)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.buildTypeFromAstInternal(InternalApiBridge.java:213)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:187)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visitType(LazyTypeResolver.java:103)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visitReferenceType(JavaVisitorBase.java:100)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:128)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.acceptVisitor(ASTClassType.java:155)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassType.getTypeMirror(ASTClassType.java:37)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.lambda$getSuperInterfaceTypes$15(AstClassSym.java:461)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:476)
+	at net.sourceforge.pmd.util.CollectionUtil.map(CollectionUtil.java:443)
+	at net.sourceforge.pmd.lang.java.symbols.internal.ast.AstClassSym.getSuperInterfaceTypes(AstClassSym.java:461)
+	at net.sourceforge.pmd.lang.java.types.ClassTypeImpl.getSuperInterfaces(ClassTypeImpl.java:302)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SuperTypesEnumerator$3.iterable(SuperTypesEnumerator.java:60)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.hidingWalkResolvers(JavaResolvers.java:385)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.JavaResolvers.inheritedMembersResolvers(JavaResolvers.java:358)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymTableFactory.typeBody(SymTableFactory.java:394)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:301)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visitTypeDecl(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.JavaVisitorBase.visit(JavaVisitorBase.java:56)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassDeclaration.acceptVisitor(ASTClassDeclaration.java:39)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.ast.AstVisitorBase.visitChildren(AstVisitorBase.java:31)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:262)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.visit(SymbolTableResolver.java:160)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.acceptVisitor(ASTCompilationUnit.java:106)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.acceptVisitor(AbstractJavaNode.java:38)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver$MyVisitor.traverse(SymbolTableResolver.java:186)
+	at net.sourceforge.pmd.lang.java.symbols.table.internal.SymbolTableResolver.traverse(SymbolTableResolver.java:105)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$1(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:136)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:177)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:161)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:70)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)
+	at net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+</error>
+</pmd>

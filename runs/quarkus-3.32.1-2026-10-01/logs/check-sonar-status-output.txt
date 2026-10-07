@@ -1,0 +1,26 @@
+﻿{
+    "task":  {
+                 "id":  "263a7ceb-7b9d-472e-b39f-261d34a44074",
+                 "type":  "REPORT",
+                 "componentId":  "175470ad-46fd-4d3a-ac03-780602f70794",
+                 "componentKey":  "quarkus-3-32-1",
+                 "componentName":  "Quarkus 3.32.1",
+                 "componentQualifier":  "TRK",
+                 "analysisId":  "e75c048c-61c6-4c1d-82cb-25155fa4d602",
+                 "status":  "SUCCESS",
+                 "submittedAt":  "2026-10-01T23:36:49+0000",
+                 "submitterLogin":  "admin",
+                 "startedAt":  "2026-10-01T23:36:51+0000",
+                 "executedAt":  "2026-10-01T23:37:29+0000",
+                 "executionTimeMs":  38642,
+                 "hasScannerContext":  true,
+                 "warningCount":  2,
+                 "warnings":  [
+                                  "SCM provider autodetection failed. Please use \"sonar.scm.provider\" to define SCM of your project, or disable the SCM Sensor in the project settings.",
+                                  "Missing \u0027sonar.java.libraries\u0027 property. You might end up with less precise analysis results."
+                              ],
+                 "infoMessages":  [
+
+                                  ]
+             }
+}

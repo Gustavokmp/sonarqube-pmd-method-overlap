@@ -1,0 +1,18 @@
+TOTAL_METODOS=48102
+hibernate-core	40984
+hibernate-community-dialects	3294
+hibernate-envers	1687
+tooling/metamodel-generator	1185
+hibernate-vector	276
+hibernate-spatial	251
+tooling/hibernate-ant	177
+hibernate-jfr	71
+hibernate-scan-jandex	36
+hibernate-jcache	35
+tooling/hibernate-gradle-plugin	28
+tooling/hibernate-maven-plugin	21
+hibernate-c3p0	15
+hibernate-hikaricp	13
+hibernate-agroal	13
+hibernate-micrometer	10
+hibernate-graalvm	6

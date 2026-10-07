@@ -1,0 +1,5 @@
+﻿"smell","variant","U","A","B","sonarPct","pmdPct","intersection","sonarOnly","pmdOnly","union","jaccard"
+"long_method","original","35236","101","81","0.2866","0.2299","74","27","7","108","0.6852"
+"long_method","filtered_excluding_spring_test","31995","99","79","0.3094","0.2469","72","27","7","106","0.6792"
+"long_parameter_list","original","35236","10","0","0.0284","0.0000","0","10","0","10","0.0000"
+"long_parameter_list","filtered_excluding_spring_test","31995","9","0","0.0281","0.0000","0","9","0","9","0.0000"

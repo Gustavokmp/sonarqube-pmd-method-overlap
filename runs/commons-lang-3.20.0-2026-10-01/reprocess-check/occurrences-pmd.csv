@@ -1,0 +1,15 @@
+﻿# relative_path,line,label (reprocessado a partir de pmd-output.txt armazenado)
+org/apache/commons/lang3/ArrayUtils.java,60,pmd:NcssCount
+org/apache/commons/lang3/JavaVersion.java,219,pmd:NcssCount
+org/apache/commons/lang3/RandomStringUtils.java,255,pmd:NcssCount
+org/apache/commons/lang3/StringUtils.java,125,pmd:NcssCount
+org/apache/commons/lang3/StringUtils.java,7606,pmd:NcssCount
+org/apache/commons/lang3/builder/ToStringStyle.java,1449,pmd:NcssCount
+org/apache/commons/lang3/math/NumberUtils.java,323,pmd:NcssCount
+org/apache/commons/lang3/math/NumberUtils.java,555,pmd:NcssCount
+org/apache/commons/lang3/text/StrSubstitutor.java,1104,pmd:NcssCount
+org/apache/commons/lang3/time/DateUtils.java,1107,pmd:NcssCount
+org/apache/commons/lang3/time/DurationFormatUtils.java,239,pmd:NcssCount
+org/apache/commons/lang3/time/DurationFormatUtils.java,529,pmd:NcssCount
+org/apache/commons/lang3/time/DurationFormatUtils.java,680,pmd:NcssCount
+org/apache/commons/lang3/time/FastDatePrinter.java,1330,pmd:NcssCount

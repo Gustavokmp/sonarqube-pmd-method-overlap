@@ -1,0 +1,19 @@
+{
+  "nota": "Projeto de teste exp-mestrado-boundary-fixtures foi criado, analisado e removido do SonarQube apos a coleta desta evidencia (projeto efemero, nao faz parte dos projetos reais do experimento).",
+  "quality_profile_usado": { "name": "exp-mestrado-long-smells", "key": "120d870b-0847-47f0-bbe6-15a5cf6aec5d" },
+  "sonar_scanner_version": "8.1.0.6389",
+  "sonarqube_version": "26.9.0.129388",
+  "issues": [
+    { "rule": "java:S138", "line": 232, "message": "This method has 76 lines, which is greater than the 75 lines authorized. Split it into smaller methods.", "method": "linesTotal76" },
+    { "rule": "java:S138", "line": 309, "message": "This method has 80 lines, which is greater than the 75 lines authorized. Split it into smaller methods.", "method": "linesTotal80" },
+    { "rule": "java:S107", "line": 24, "message": "Method has 8 parameters, which is greater than 7 authorized.", "method": "params8" },
+    { "rule": "java:S107", "line": 28, "message": "Method has 9 parameters, which is greater than 7 authorized.", "method": "params9" },
+    { "rule": "java:S107", "line": 32, "message": "Method has 10 parameters, which is greater than 7 authorized.", "method": "params10" },
+    { "rule": "java:S107", "line": 36, "message": "Method has 11 parameters, which is greater than 7 authorized.", "method": "params11" },
+    { "rule": "java:S107", "line": 40, "message": "Method has 12 parameters, which is greater than 7 authorized.", "method": "params12" }
+  ],
+  "conclusao": {
+    "S138": "Metodos com exatamente 75 linhas (linesTotal75) NAO foram sinalizados; metodos com 76+ linhas foram. Operador confirmado: '>' (estritamente maior) em relacao a max=75.",
+    "S107": "Metodos com exatamente 7 parametros (params7) NAO foram sinalizados; metodos com 8+ parametros foram. Operador confirmado: '>' (estritamente maior) em relacao a max=7."
+  }
+}

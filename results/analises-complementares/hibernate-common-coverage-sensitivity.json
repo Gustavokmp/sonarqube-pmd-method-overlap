@@ -1,0 +1,75 @@
+﻿{
+    "excluded_files":  [
+                           "hibernate-core/org/hibernate/dialect/Dialect.java",
+                           "hibernate-envers/org/hibernate/envers/boot/model/Attribute.java",
+                           "hibernate-envers/org/hibernate/envers/boot/model/Column.java",
+                           "hibernate-envers/org/hibernate/envers/boot/model/Key.java",
+                           "hibernate-envers/org/hibernate/envers/boot/model/TypeSpecification.java"
+                       ],
+    "excluded_files_count":  5,
+    "excluded_methods_count":  14,
+    "impact_per_smell":  {
+                             "long_method":  {
+                                                 "sonar_alerts_removed":  0,
+                                                 "pmd_alerts_removed":  0
+                                             },
+                             "long_parameter_list":  {
+                                                         "sonar_alerts_removed":  0,
+                                                         "pmd_alerts_removed":  0
+                                                     }
+                         },
+    "metrics":  {
+                    "long_method":  {
+                                        "original":  {
+                                                         "U":  48102,
+                                                         "A":  260,
+                                                         "B":  126,
+                                                         "sonarPct":  "0.5405",
+                                                         "pmdPct":  "0.2619",
+                                                         "intersection":  125,
+                                                         "sonarOnly":  135,
+                                                         "pmdOnly":  1,
+                                                         "union":  261,
+                                                         "jaccard":  "0.4789"
+                                                     },
+                                        "u_common":  {
+                                                         "U":  48088,
+                                                         "A":  260,
+                                                         "B":  126,
+                                                         "sonarPct":  "0.5407",
+                                                         "pmdPct":  "0.2620",
+                                                         "intersection":  125,
+                                                         "sonarOnly":  135,
+                                                         "pmdOnly":  1,
+                                                         "union":  261,
+                                                         "jaccard":  "0.4789"
+                                                     }
+                                    },
+                    "long_parameter_list":  {
+                                                "original":  {
+                                                                 "U":  48102,
+                                                                 "A":  126,
+                                                                 "B":  64,
+                                                                 "sonarPct":  "0.2619",
+                                                                 "pmdPct":  "0.1331",
+                                                                 "intersection":  47,
+                                                                 "sonarOnly":  79,
+                                                                 "pmdOnly":  17,
+                                                                 "union":  143,
+                                                                 "jaccard":  "0.3287"
+                                                             },
+                                                "u_common":  {
+                                                                 "U":  48088,
+                                                                 "A":  126,
+                                                                 "B":  64,
+                                                                 "sonarPct":  "0.2620",
+                                                                 "pmdPct":  "0.1331",
+                                                                 "intersection":  47,
+                                                                 "sonarOnly":  79,
+                                                                 "pmdOnly":  17,
+                                                                 "union":  143,
+                                                                 "jaccard":  "0.3287"
+                                                             }
+                                            }
+                }
+}

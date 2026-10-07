@@ -1,0 +1,21 @@
+﻿=== SonarQube out_of_scope reasons ===
+
+Name                                              Count
+----                                              -----
+metodo pertence a tipo local ou anonimo              18
+construtor (fora da unidade de comparacao)          100
+metodo sem corpo (abstrato/interface sem default)     7
+
+
+
+=== PMD out_of_scope reasons ===
+
+Name                                                   Count
+----                                                   -----
+metodo pertence a tipo local ou anonimo                    6
+construtor (fora da unidade de comparacao)                70
+nivel de classe/tipo (ex.: NcssCount classReportLevel)     1
+metodo sem corpo (abstrato/interface sem default)          5
+
+
+

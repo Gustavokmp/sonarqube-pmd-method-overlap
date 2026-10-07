@@ -1,0 +1,6 @@
+﻿runs/quarkus-3.32.1-2026-10-01/inventories/association-sonarqube.jsonl vs runs/quarkus-3.32.1-2026-10-01/reprocess-check/association-sonarqube.jsonl: MATCH=True
+runs/quarkus-3.32.1-2026-10-01/inventories/association-pmd.jsonl vs runs/quarkus-3.32.1-2026-10-01/reprocess-check/association-pmd.jsonl: MATCH=True
+runs/quarkus-3.32.1-2026-10-01/inventories/dedup-input-all.jsonl vs runs/quarkus-3.32.1-2026-10-01/reprocess-check/dedup-input-all.jsonl: MATCH=True
+runs/quarkus-3.32.1-2026-10-01/inventories/dedup-results.jsonl vs runs/quarkus-3.32.1-2026-10-01/reprocess-check/dedup-results.jsonl: MATCH=True
+runs/quarkus-3.32.1-2026-10-01/inventories/metrics-resultado.json vs runs/quarkus-3.32.1-2026-10-01/reprocess-check/metrics-resultado.json: MATCH=True
+REPROCESSAMENTO_DETERMINISTICO=True

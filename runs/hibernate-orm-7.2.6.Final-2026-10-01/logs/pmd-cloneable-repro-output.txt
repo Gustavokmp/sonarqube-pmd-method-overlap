@@ -1,0 +1,26 @@
+﻿pmd.bat : [WARN] Progressbar rendering conflicts with reporting to STDOUT. No 
+progressbar will be shown. Try running with argument -r <file> to output the 
+report to a file instead.
+No linha:1 caractere:1
++ & "sources/pmd-bin-7.27.0/bin/pmd.bat" check -d "scripts/fixtures/bou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WARN] Progress...a file instead. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[ERROR] at scripts\fixtures\boundary\pmd-cloneable-shadow-repro\PmdCloneableSha
+dowRepro.java:8:50: Cannot parameterize java/lang/Cloneable with 
+[repro.PmdCloneableShadowRepro], expecting  0 type arguments
+scripts\fixtures\boundary\pmd-cloneable-shadow-repro\PmdCloneableShadowRepro.java	-	SemanticException: Error in file 'scripts\fixtures\boundary\pmd-cloneable-shadow-repro\PmdCloneableShadowRepro.java': at scripts\fixtures\boundary\pmd-cloneable-shadow-repro\PmdCloneableShadowRepro.java:8:50: Cannot parameterize java/lang/Cloneable with [repro.PmdCloneableShadowRepro], expecting  0 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:8:50]Cloneable<PmdCloneableShadowRepro>]
+	[2:Location=!debug only! scripts\fixtures\boundary\pmd-cloneable-shadow-repro\PmdCloneableShadowRepro.java:8:50]
+---------------------------------
+[INFO] An error occurred while executing PMD.
+Run in verbose mode to see a stack-trace.
+If you think this is a bug in PMD, please report this issue at 
+https://github.com/pmd/pmd/issues/new/choose
+If you do so, please include a stack-trace, the code sample
+ causing the issue, and details about your run configuration.
+[INFO] Found no violations. There was 1 processing error.
+EXIT=1

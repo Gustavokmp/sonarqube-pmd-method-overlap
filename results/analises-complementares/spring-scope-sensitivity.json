@@ -1,0 +1,62 @@
+﻿{
+    "excluded_module_prefixes":  [
+                                     "spring-test/",
+                                     "spring-core-test/"
+                                 ],
+    "excluded_files_count":  331,
+    "excluded_methods_count":  3241,
+    "metrics":  {
+                    "long_method":  {
+                                        "original":  {
+                                                         "U":  35236,
+                                                         "A":  101,
+                                                         "B":  81,
+                                                         "sonarPct":  "0.2866",
+                                                         "pmdPct":  "0.2299",
+                                                         "intersection":  74,
+                                                         "sonarOnly":  27,
+                                                         "pmdOnly":  7,
+                                                         "union":  108,
+                                                         "jaccard":  "0.6852"
+                                                     },
+                                        "filtered_excluding_spring_test":  {
+                                                                               "U":  31995,
+                                                                               "A":  99,
+                                                                               "B":  79,
+                                                                               "sonarPct":  "0.3094",
+                                                                               "pmdPct":  "0.2469",
+                                                                               "intersection":  72,
+                                                                               "sonarOnly":  27,
+                                                                               "pmdOnly":  7,
+                                                                               "union":  106,
+                                                                               "jaccard":  "0.6792"
+                                                                           }
+                                    },
+                    "long_parameter_list":  {
+                                                "original":  {
+                                                                 "U":  35236,
+                                                                 "A":  10,
+                                                                 "B":  0,
+                                                                 "sonarPct":  "0.0284",
+                                                                 "pmdPct":  "0.0000",
+                                                                 "intersection":  0,
+                                                                 "sonarOnly":  10,
+                                                                 "pmdOnly":  0,
+                                                                 "union":  10,
+                                                                 "jaccard":  "0.0000"
+                                                             },
+                                                "filtered_excluding_spring_test":  {
+                                                                                       "U":  31995,
+                                                                                       "A":  9,
+                                                                                       "B":  0,
+                                                                                       "sonarPct":  "0.0281",
+                                                                                       "pmdPct":  "0.0000",
+                                                                                       "intersection":  0,
+                                                                                       "sonarOnly":  9,
+                                                                                       "pmdOnly":  0,
+                                                                                       "union":  9,
+                                                                                       "jaccard":  "0.0000"
+                                                                                   }
+                                            }
+                }
+}

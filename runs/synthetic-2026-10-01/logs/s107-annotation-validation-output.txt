@@ -1,0 +1,13 @@
+﻿=== projects/create ===
+{
+    "project":  {
+                    "key":  "exp-mestrado-s107-annotation-validation",
+                    "name":  "exp-mestrado S107 annotation validation (fixture sintetica)",
+                    "qualifier":  "TRK",
+                    "visibility":  "public"
+                }
+}
+=== qualityprofiles/add_project ===
+OK
+=== sonar-scanner ===
+EXITCODE=0

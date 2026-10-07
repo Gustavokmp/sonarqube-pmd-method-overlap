@@ -1,0 +1,34 @@
+arquivos_java_em_escopo=6605
+arquivos_processados_com_sucesso=6604
+falhas_de_parsing=1
+
+hibernate-core/org/hibernate/dialect/Dialect.java :: ParseProblemException: (line 6089, col 8) Parse error. Found "{", expected one of  "," ";" "=" "@" "["
+
+Causa raiz confirmada: declaracao de enum LOCAL dentro de corpo de metodo
+(`enum Unit { day, hour, minute }` em Dialect.appendIntervalLiteral, linha
+6089) - sintaxe valida em Java desde o JDK 16, mas nao suportada pela
+gramatica do JavaParser 3.28.2 (versao mais recente disponivel no Maven
+Central em 2026-10-01; nao ha versao mais nova para atualizar). Reproduzido
+de forma isolada e minima em
+scripts/fixtures/boundary/LocalEnumRepro.java (mesmo erro exato, mesma
+coluna). Nao e um bug do MethodInventoryExtractor nem do codigo do projeto
+estudado - e uma limitacao de cobertura de gramatica da biblioteca de
+parsing usada (JavaParser), fora do nosso controle e sem solucao disponivel
+sem substituir a ferramenta de parsing inteira (nao justificado por um unico
+arquivo, nao e mudanca metodologica - a ferramenta continua sendo
+JavaParser/AST, conforme protocolo secao 8).
+
+Tratamento adotado (nao e mudanca metodologica, apenas registro honesto de
+falha de parsing conforme protocolo secao 9):
+- hibernate-core/org/hibernate/dialect/Dialect.java permanece listado em
+  arquivos-incluidos.txt (e codigo de producao, dentro do escopo), mas NAO
+  contribui nenhum metodo para o universo elegivel |U| (nao foi possivel
+  extrair sua AST).
+- Alertas do SonarQube/PMD que caiam dentro deste arquivo serao classificados
+  `unassociated` na normalizacao (secao 13 do protocolo), nunca atribuidos
+  automaticamente a nenhuma das duas ferramentas.
+- Nao exige bloqueio (BLOCK-NNN): nao altera projeto, versao, regra,
+  threshold, escopo, unidade de comparacao, definicao de metodo elegivel,
+  ferramenta ou formula de metrica - e uma falha de parsing isolada (1 de
+  6605 arquivos em escopo), exatamente o tipo de ocorrencia que a secao 9
+  do protocolo antecipa e exige registrar.

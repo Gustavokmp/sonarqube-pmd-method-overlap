@@ -1,0 +1,28 @@
+﻿{
+    "long_parameter_list":  {
+                                "smell":  "long_parameter_list",
+                                "U":  35236,
+                                "A":  10,
+                                "B":  0,
+                                "sonarPct":  "0.0284",
+                                "pmdPct":  "0.0000",
+                                "intersection":  0,
+                                "sonarOnly":  10,
+                                "pmdOnly":  0,
+                                "union":  10,
+                                "jaccard":  "0.0000"
+                            },
+    "long_method":  {
+                        "smell":  "long_method",
+                        "U":  35236,
+                        "A":  101,
+                        "B":  81,
+                        "sonarPct":  "0.2866",
+                        "pmdPct":  "0.2299",
+                        "intersection":  74,
+                        "sonarOnly":  27,
+                        "pmdOnly":  7,
+                        "union":  108,
+                        "jaccard":  "0.6852"
+                    }
+}

@@ -1,0 +1,3 @@
+# Preserva os bytes exatos dos artefatos (relatorios brutos, inventarios, logs): sem conversao de fim de linha.
+# Os hashes de SHA256SUMS.txt sao validos em qualquer sistema operacional.
+* -text

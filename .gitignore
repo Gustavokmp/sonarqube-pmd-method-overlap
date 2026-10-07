@@ -1,0 +1,30 @@
+# Credenciais e segredos
+.env
+
+# Repositórios dos projetos estudados (clonados sob demanda, não versionados aqui)
+sources/
+
+# Artefatos de build Java
+target/
+build/
+.gradle/
+*.class
+
+# Dependencias binarias baixadas diretamente (sem Maven/Gradle)
+scripts/method-inventory/lib/
+scripts/method-inventory/out/
+
+# Diretorio de trabalho/cache do SonarScanner CLI
+.scannerwork/
+
+# Caches de dependências
+.m2/
+~/.m2/
+
+# Volumes/dados de containers
+docker-data/
+volumes/
+
+# Sistema
+Thumbs.db
+.DS_Store

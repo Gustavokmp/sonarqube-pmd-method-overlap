@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.27.0" timestamp="2026-10-01T18:27:31.514">
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\AbstractNestablePropertyAccessor.java">
+<violation beginline="624" endline="624" begincolumn="19" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.springframework.beans" class="AbstractNestablePropertyAccessor" method="getPropertyValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getPropertyValue(PropertyTokenHolder)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\TypeConverterDelegate.java">
+<violation beginline="117" endline="117" begincolumn="15" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.springframework.beans" class="TypeConverterDelegate" method="convertIfNecessary" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'convertIfNecessary(String, Object, Object, Class&lt;T&gt;, TypeDescriptor)' has a NCSS line count of 100.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\annotation\AutowiredAnnotationBeanPostProcessor.java">
+<violation beginline="365" endline="365" begincolumn="26" endcolumn="56" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.annotation" class="AutowiredAnnotationBeanPostProcessor" method="determineCandidateConstructors" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'determineCandidateConstructors(Class&lt;?&gt;, String)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\AbstractAutowireCapableBeanFactory.java">
+<violation beginline="719" endline="719" begincolumn="21" endcolumn="44" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="AbstractAutowireCapableBeanFactory" method="getTypeForFactoryMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getTypeForFactoryMethod(String, RootBeanDefinition, Class&lt;?&gt;[])' has a NCSS line count of 64.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\AbstractBeanFactory.java">
+<violation beginline="242" endline="242" begincolumn="18" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="AbstractBeanFactory" method="doGetBean" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doGetBean(String, Class&lt;T&gt;, Object[], boolean)' has a NCSS line count of 83.
+</violation>
+<violation beginline="531" endline="531" begincolumn="20" endcolumn="31" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="AbstractBeanFactory" method="isTypeMatch" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'isTypeMatch(String, ResolvableType, boolean)' has a NCSS line count of 93.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\BeanDefinitionValueResolver.java">
+<violation beginline="131" endline="131" begincolumn="16" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="BeanDefinitionValueResolver" method="resolveValueIfNecessary" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'resolveValueIfNecessary(Object, Object)' has a NCSS line count of 66.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\ConstructorResolver.java">
+<violation beginline="135" endline="135" begincolumn="21" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="ConstructorResolver" method="autowireConstructor" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'autowireConstructor(String, RootBeanDefinition, Constructor&lt;?&gt;[], Object[])' has a NCSS line count of 103.
+</violation>
+<violation beginline="397" endline="397" begincolumn="21" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="ConstructorResolver" method="instantiateUsingFactoryMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])' has a NCSS line count of 148.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\DefaultListableBeanFactory.java">
+<violation beginline="1658" endline="1658" begincolumn="16" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="DefaultListableBeanFactory" method="doResolveDependency" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doResolveDependency(DependencyDescriptor, String, Set&lt;String&gt;, TypeConverter)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\DefaultSingletonBeanRegistry.java">
+<violation beginline="257" endline="257" begincolumn="16" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="DefaultSingletonBeanRegistry" method="getSingleton" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getSingleton(String, ObjectFactory&lt;?&gt;)' has a NCSS line count of 97.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\support\PropertiesBeanDefinitionReader.java">
+<violation beginline="415" endline="415" begincolumn="17" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.support" class="PropertiesBeanDefinitionReader" method="registerBeanDefinition" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerBeanDefinition(String, Map&lt;?, ?&gt;, String, String)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-beans\src\main\java\org\springframework\beans\factory\xml\BeanDefinitionParserDelegate.java">
+<violation beginline="1171" endline="1171" begincolumn="29" endcolumn="44" rule="NcssCount" ruleset="Design" package="org.springframework.beans.factory.xml" class="BeanDefinitionParserDelegate" method="parseMapElement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parseMapElement(Element, BeanDefinition)' has a NCSS line count of 76.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-context\src\main\java\org\springframework\context\annotation\ConfigurationClassBeanDefinitionReader.java">
+<violation beginline="185" endline="185" begincolumn="15" endcolumn="47" rule="NcssCount" ruleset="Design" package="org.springframework.context.annotation" class="ConfigurationClassBeanDefinitionReader" method="loadBeanDefinitionsForBeanMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'loadBeanDefinitionsForBeanMethod(BeanMethod)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-context\src\main\java\org\springframework\context\support\PostProcessorRegistrationDelegate.java">
+<violation beginline="68" endline="68" begincolumn="21" endcolumn="52" rule="NcssCount" ruleset="Design" package="org.springframework.context.support" class="PostProcessorRegistrationDelegate" method="invokeBeanFactoryPostProcessors" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory, List&lt;BeanFactoryPostProcessor&gt;)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-context\src\main\java\org\springframework\scheduling\annotation\ScheduledAnnotationBeanPostProcessor.java">
+<violation beginline="405" endline="405" begincolumn="15" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.springframework.scheduling.annotation" class="ScheduledAnnotationBeanPostProcessor" method="processScheduledTask" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'processScheduledTask(Scheduled, Runnable, Method, Object)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-context\src\main\java\org\springframework\validation\DataBinder.java">
+<violation beginline="921" endline="921" begincolumn="17" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.springframework.validation" class="DataBinder" method="createObject" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createObject(ResolvableType, String, ValueResolver)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-context\src\main\java\org\springframework\validation\beanvalidation\MethodValidationAdapter.java">
+<violation beginline="298" endline="298" begincolumn="33" endcolumn="48" rule="NcssCount" ruleset="Design" package="org.springframework.validation.beanvalidation" class="MethodValidationAdapter" method="adaptViolations" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'adaptViolations(Object, Method, Set&lt;ConstraintViolation&lt;Object&gt;&gt;, Function&lt;Integer, MethodParameter&gt;, Function&lt;Integer, Object&gt;)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\AnnotationWriter.java">
+<violation beginline="190" endline="190" begincolumn="15" endcolumn="20" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="AnnotationWriter" method="visit" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visit(String, Object)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\ClassReader.java">
+<violation beginline="44" endline="44" begincolumn="14" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'ClassReader' has a NCSS line count of 2076 (Highest = 820).
+</violation>
+<violation beginline="448" endline="448" begincolumn="15" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="accept" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'accept(ClassVisitor, Attribute[], int)' has a NCSS line count of 179.
+</violation>
+<violation beginline="774" endline="774" begincolumn="16" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readModuleAttributes" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readModuleAttributes(ClassVisitor, Context, int, int, String)' has a NCSS line count of 71.
+</violation>
+<violation beginline="897" endline="897" begincolumn="15" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readRecordComponent" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readRecordComponent(ClassVisitor, Context, int)' has a NCSS line count of 77.
+</violation>
+<violation beginline="1071" endline="1071" begincolumn="15" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readField" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readField(ClassVisitor, Context, int)' has a NCSS line count of 89.
+</violation>
+<violation beginline="1255" endline="1255" begincolumn="15" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readMethod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readMethod(ClassVisitor, Context, int)' has a NCSS line count of 140.
+</violation>
+<violation beginline="1538" endline="1538" begincolumn="16" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readCode" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readCode(MethodVisitor, Context, int)' has a NCSS line count of 820.
+</violation>
+<violation beginline="2879" endline="2879" begincolumn="15" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readTypeAnnotationTarget" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readTypeAnnotationTarget(Context, int)' has a NCSS line count of 62.
+</violation>
+<violation beginline="3042" endline="3042" begincolumn="15" endcolumn="31" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readElementValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readElementValue(AnnotationVisitor, int, String, char[])' has a NCSS line count of 120.
+</violation>
+<violation beginline="3297" endline="3297" begincolumn="15" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassReader" method="readStackMapFrame" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'readStackMapFrame(int, boolean, boolean, Context)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\ClassWriter.java">
+<violation beginline="489" endline="489" begincolumn="17" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="ClassWriter" method="toByteArray" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'toByteArray()' has a NCSS line count of 151.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\Frame.java">
+<violation beginline="691" endline="691" begincolumn="8" endcolumn="15" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="Frame" method="execute" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'execute(int, int, Symbol, SymbolTable)' has a NCSS line count of 411.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\MethodWriter.java">
+<violation beginline="733" endline="733" begincolumn="15" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="MethodWriter" method="visitFrame" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'visitFrame(int, int, Object[], int, Object[])' has a NCSS line count of 86.
+</violation>
+<violation beginline="1860" endline="1860" begincolumn="16" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="MethodWriter" method="putFrame" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'putFrame()' has a NCSS line count of 69.
+</violation>
+<violation beginline="2181" endline="2181" begincolumn="8" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="MethodWriter" method="putMethodInfo" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'putMethodInfo(ByteVector)' has a NCSS line count of 95.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\asm\SymbolTable.java">
+<violation beginline="161" endline="161" begincolumn="3" endcolumn="14" rule="NcssCount" ruleset="Design" package="org.springframework.asm" class="SymbolTable" method="SymbolTable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The constructor 'SymbolTable(ClassWriter, ClassReader)' has a NCSS line count of 61.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\cglib\core\KeyFactory.java">
+<violation beginline="255" endline="255" begincolumn="15" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.springframework.cglib.core" class="KeyFactory.Generator" method="generateClass" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generateClass(ClassVisitor)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\cglib\proxy\Enhancer.java">
+<violation beginline="1198" endline="1198" begincolumn="15" endcolumn="26" rule="NcssCount" ruleset="Design" package="org.springframework.cglib.proxy" class="Enhancer" method="emitMethods" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'emitMethods(ClassEmitter, List, List)' has a NCSS line count of 96.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\core\ResolvableType.java">
+<violation beginline="300" endline="300" begincolumn="18" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.springframework.core" class="ResolvableType" method="isAssignableFrom" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'isAssignableFrom(ResolvableType, boolean, Map&lt;Type, Type&gt;, boolean)' has a NCSS line count of 64.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\core\io\support\PathMatchingResourcePatternResolver.java">
+<violation beginline="687" endline="687" begincolumn="23" endcolumn="48" rule="NcssCount" ruleset="Design" package="org.springframework.core.io.support" class="PathMatchingResourcePatternResolver" method="findPathMatchingResources" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'findPathMatchingResources(String)' has a NCSS line count of 67.
+</violation>
+<violation beginline="867" endline="867" begincolumn="26" endcolumn="56" rule="NcssCount" ruleset="Design" package="org.springframework.core.io.support" class="PathMatchingResourcePatternResolver" method="doFindPathMatchingJarResources" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doFindPathMatchingJarResources(Resource, URL, String)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-core\src\main\java\org\springframework\util\AntPathMatcher.java">
+<violation beginline="211" endline="211" begincolumn="20" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.springframework.util" class="AntPathMatcher" method="doMatch" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doMatch(String, String, boolean, Map&lt;String, String&gt;)' has a NCSS line count of 80.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\ast\Indexer.java">
+<violation beginline="181" endline="181" begincolumn="19" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="Indexer" method="getValueRef" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getValueRef(ExpressionState, AccessMode)' has a NCSS line count of 64.
+</violation>
+<violation beginline="341" endline="341" begincolumn="14" endcolumn="26" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="Indexer" method="generateCode" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generateCode(MethodVisitor, CodeFlow)' has a NCSS line count of 67.
+</violation>
+<violation beginline="538" endline="538" begincolumn="18" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="Indexer.ArrayIndexingValueRef" method="getArrayElement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getArrayElement(Object, int)' has a NCSS line count of 64.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\ast\OpMinus.java">
+<violation beginline="69" endline="69" begincolumn="20" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="OpMinus" method="getValueInternal" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getValueInternal(ExpressionState)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\ast\OpPlus.java">
+<violation beginline="70" endline="70" begincolumn="20" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="OpPlus" method="getValueInternal" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getValueInternal(ExpressionState)' has a NCSS line count of 66.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\ast\Operator.java">
+<violation beginline="111" endline="111" begincolumn="17" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="Operator" method="generateComparisonCode" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generateComparisonCode(MethodVisitor, CodeFlow, int, int)' has a NCSS line count of 106.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\ast\Selection.java">
+<violation beginline="96" endline="96" begincolumn="21" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.ast" class="Selection" method="getValueRef" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getValueRef(ExpressionState)' has a NCSS line count of 69.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-expression\src\main\java\org\springframework\expression\spel\standard\Tokenizer.java">
+<violation beginline="88" endline="88" begincolumn="21" endcolumn="28" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.standard" class="Tokenizer" method="process" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'process()' has a NCSS line count of 159.
+</violation>
+<violation beginline="341" endline="341" begincolumn="15" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.springframework.expression.spel.standard" class="Tokenizer" method="lexNumericLiteral" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'lexNumericLiteral(boolean)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\core\StatementCreatorUtils.java">
+<violation beginline="328" endline="328" begincolumn="22" endcolumn="30" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.core" class="StatementCreatorUtils" method="setValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'setValue(PreparedStatement, int, int, String, Integer, Object)' has a NCSS line count of 95.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\core\metadata\CallMetaDataContext.java">
+<violation beginline="321" endline="321" begincolumn="31" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.core.metadata" class="CallMetaDataContext" method="reconcileParameters" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'reconcileParameters(List&lt;SqlParameter&gt;)' has a NCSS line count of 92.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\core\namedparam\NamedParameterUtils.java">
+<violation beginline="82" endline="82" begincolumn="26" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.core.namedparam" class="NamedParameterUtils" method="parseSqlStatement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parseSqlStatement(String)' has a NCSS line count of 82.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\datasource\LazyConnectionDataSourceProxy.java">
+<violation beginline="338" endline="338" begincolumn="17" endcolumn="23" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.datasource" class="LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler" method="invoke" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'invoke(Object, Method, Object[])' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\support\JdbcUtils.java">
+<violation beginline="154" endline="154" begincolumn="23" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.support" class="JdbcUtils" method="getResultSetValue" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getResultSetValue(ResultSet, int, Class&lt;?&gt;)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jdbc\src\main\java\org\springframework\jdbc\support\SQLErrorCodeSQLExceptionTranslator.java">
+<violation beginline="185" endline="185" begincolumn="32" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.springframework.jdbc.support" class="SQLErrorCodeSQLExceptionTranslator" method="doTranslate" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doTranslate(String, String, SQLException)' has a NCSS line count of 81.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jms\src\main\java\org\springframework\jms\config\JmsListenerContainerParser.java">
+<violation beginline="118" endline="118" begincolumn="34" endcolumn="66" rule="NcssCount" ruleset="Design" package="org.springframework.jms.config" class="JmsListenerContainerParser" method="parseSpecificContainerProperties" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parseSpecificContainerProperties(Element, ParserContext)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jms\src\main\java\org\springframework\jms\connection\SingleConnectionFactory.java">
+<violation beginline="626" endline="626" begincolumn="17" endcolumn="23" rule="NcssCount" ruleset="Design" package="org.springframework.jms.connection" class="SingleConnectionFactory.SharedConnectionInvocationHandler" method="invoke" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'invoke(Object, Method, Object[])' has a NCSS line count of 81.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jms\src\main\java\org\springframework\jms\listener\AbstractPollingMessageListenerContainer.java">
+<violation beginline="284" endline="284" begincolumn="20" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.jms.listener" class="AbstractPollingMessageListenerContainer" method="doReceiveAndExecute" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doReceiveAndExecute(Object, Session, MessageConsumer, TransactionStatus)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-jms\src\main\java\org\springframework\jms\listener\DefaultMessageListenerContainer.java">
+<violation beginline="1277" endline="1277" begincolumn="15" endcolumn="18" rule="NcssCount" ruleset="Design" package="org.springframework.jms.listener" class="DefaultMessageListenerContainer.AsyncMessageListenerInvoker" method="run" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'run()' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-messaging\src\main\java\org\springframework\messaging\simp\stomp\StompBrokerRelayMessageHandler.java">
+<violation beginline="507" endline="507" begincolumn="17" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.springframework.messaging.simp.stomp" class="StompBrokerRelayMessageHandler" method="handleMessageInternal" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleMessageInternal(Message&lt;?&gt;)' has a NCSS line count of 83.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-orm\src\main\java\org\springframework\orm\hibernate5\HibernateTransactionManager.java">
+<violation beginline="461" endline="461" begincolumn="17" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.springframework.orm.hibernate5" class="HibernateTransactionManager" method="doBegin" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doBegin(Object, TransactionDefinition)' has a NCSS line count of 74.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-oxm\src\main\java\org\springframework\oxm\xstream\XStreamMarshaller.java">
+<violation beginline="490" endline="490" begincolumn="17" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.springframework.oxm.xstream" class="XStreamMarshaller" method="configureXStream" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'configureXStream(XStream)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-r2dbc\src\main\java\org\springframework\r2dbc\connection\init\ScriptUtils.java">
+<violation beginline="449" endline="449" begincolumn="22" endcolumn="36" rule="NcssCount" ruleset="Design" package="org.springframework.r2dbc.connection.init" class="ScriptUtils" method="splitSqlScript" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'splitSqlScript(EncodedResource, String, String, String[], String, String)' has a NCSS line count of 61.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-r2dbc\src\main\java\org\springframework\r2dbc\core\NamedParameterUtils.java">
+<violation beginline="96" endline="96" begincolumn="26" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.springframework.r2dbc.core" class="NamedParameterUtils" method="parseSqlStatement" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parseSqlStatement(String)' has a NCSS line count of 75.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-test\src\main\java\org\springframework\test\context\MergedContextConfiguration.java">
+<violation beginline="207" endline="212" begincolumn="35" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context" class="MergedContextConfiguration" method="MergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+<violation beginline="247" endline="252" begincolumn="35" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context" class="MergedContextConfiguration" method="MergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="283" endline="288" begincolumn="35" endcolumn="48" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context" class="MergedContextConfiguration" method="MergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-test\src\main\java\org\springframework\test\context\web\WebMergedContextConfiguration.java">
+<violation beginline="108" endline="112" begincolumn="38" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context.web" class="WebMergedContextConfiguration" method="WebMergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (11 parameters - threshold is 10).
+</violation>
+<violation beginline="147" endline="151" begincolumn="38" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context.web" class="WebMergedContextConfiguration" method="WebMergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+<violation beginline="183" endline="188" begincolumn="38" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.test.context.web" class="WebMergedContextConfiguration" method="WebMergedContextConfiguration" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-test\src\main\java\org\springframework\test\web\servlet\request\AbstractMockHttpServletRequestBuilder.java">
+<violation beginline="596" endline="596" begincolumn="16" endcolumn="21" rule="NcssCount" ruleset="Design" package="org.springframework.test.web.servlet.request" class="AbstractMockHttpServletRequestBuilder" method="merge" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'merge(Object)' has a NCSS line count of 64.
+</violation>
+<violation beginline="712" endline="712" begincolumn="38" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.springframework.test.web.servlet.request" class="AbstractMockHttpServletRequestBuilder" method="buildRequest" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'buildRequest(ServletContext)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-tx\src\main\java\org\springframework\transaction\interceptor\TransactionAspectSupport.java">
+<violation beginline="342" endline="342" begincolumn="19" endcolumn="42" rule="NcssCount" ruleset="Design" package="org.springframework.transaction.interceptor" class="TransactionAspectSupport" method="invokeWithinTransaction" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'invokeWithinTransaction(Method, Class&lt;?&gt;, InvocationCallback)' has a NCSS line count of 60.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\http\ContentDisposition.java">
+<violation beginline="345" endline="345" begincolumn="35" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.springframework.http" class="ContentDisposition" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(String)' has a NCSS line count of 74.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\http\codec\support\BaseDefaultCodecs.java">
+<violation beginline="473" endline="473" begincolumn="15" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.springframework.http.codec.support" class="BaseDefaultCodecs" method="initCodec" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'initCodec(Object)' has a NCSS line count of 65.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\web\client\DefaultRestClient.java">
+<violation beginline="126" endline="137" begincolumn="19" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.web.client" class="DefaultRestClient" method="DefaultRestClient" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (12 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\web\context\support\ServletRequestHandledEvent.java">
+<violation beginline="112" endline="114" begincolumn="35" endcolumn="107" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.web.context.support" class="ServletRequestHandledEvent" method="ServletRequestHandledEvent" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\web\util\WhatWgUrlParser.java">
+<violation beginline="2563" endline="2563" begincolumn="29" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.springframework.web.util" class="WhatWgUrlParser.Ipv6Address" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(String)' has a NCSS line count of 96.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-web\src\main\java\org\springframework\web\util\pattern\InternalPathPatternParser.java">
+<violation beginline="98" endline="98" begincolumn="21" endcolumn="26" rule="NcssCount" ruleset="Design" package="org.springframework.web.util.pattern" class="InternalPathPatternParser" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(String)' has a NCSS line count of 61.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webflux\src\main\java\org\springframework\web\reactive\function\client\DefaultWebClient.java">
+<violation beginline="110" endline="115" begincolumn="18" endcolumn="36" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.web.reactive.function.client" class="DefaultWebClient" method="DefaultWebClient" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\config\AnnotationDrivenBeanDefinitionParser.java">
+<violation beginline="200" endline="200" begincolumn="24" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.config" class="AnnotationDrivenBeanDefinitionParser" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(Element, ParserContext)' has a NCSS line count of 103.
+</violation>
+<violation beginline="564" endline="564" begincolumn="25" endcolumn="45" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.config" class="AnnotationDrivenBeanDefinitionParser" method="getMessageConverters" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'getMessageConverters(Element, Object, ParserContext)' has a NCSS line count of 61.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\config\ViewResolversBeanDefinitionParser.java">
+<violation beginline="73" endline="73" begincolumn="24" endcolumn="29" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.config" class="ViewResolversBeanDefinitionParser" method="parse" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parse(Element, ParserContext)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\function\DefaultServerRequestBuilder.java">
+<violation beginline="234" endline="237" begincolumn="28" endcolumn="109" rule="ExcessiveParameterList" ruleset="Design" package="org.springframework.web.servlet.function" class="DefaultServerRequestBuilder.BuiltServerRequest" method="BuiltServerRequest" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists (10 parameters - threshold is 10).
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\mvc\method\annotation\AbstractMessageConverterMethodProcessor.java">
+<violation beginline="208" endline="208" begincolumn="21" endcolumn="47" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.mvc.method.annotation" class="AbstractMessageConverterMethodProcessor" method="writeWithMessageConverters" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'writeWithMessageConverters(T, MethodParameter, ServletServerHttpRequest, ServletServerHttpResponse)' has a NCSS line count of 101.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\mvc\method\annotation\ResponseEntityExceptionHandler.java">
+<violation beginline="141" endline="141" begincolumn="38" endcolumn="53" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.mvc.method.annotation" class="ResponseEntityExceptionHandler" method="handleException" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleException(Exception, WebRequest)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-webmvc\src\main\java\org\springframework\web\servlet\mvc\support\DefaultHandlerExceptionResolver.java">
+<violation beginline="181" endline="181" begincolumn="25" endcolumn="43" rule="NcssCount" ruleset="Design" package="org.springframework.web.servlet.mvc.support" class="DefaultHandlerExceptionResolver" method="doResolveException" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'doResolveException(HttpServletRequest, HttpServletResponse, Object, Exception)' has a NCSS line count of 63.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-websocket\src\main\java\org\springframework\web\socket\config\MessageBrokerBeanDefinitionParser.java">
+<violation beginline="379" endline="379" begincolumn="29" endcolumn="50" rule="NcssCount" ruleset="Design" package="org.springframework.web.socket.config" class="MessageBrokerBeanDefinitionParser" method="registerMessageBroker" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerMessageBroker(Element, RuntimeBeanReference, RuntimeBeanReference, RuntimeBeanReference, Object, RuntimeBeanReference, RuntimeBeanReference, ParserContext, Object)' has a NCSS line count of 66.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-websocket\src\main\java\org\springframework\web\socket\config\WebSocketNamespaceUtils.java">
+<violation beginline="68" endline="68" begincolumn="37" endcolumn="58" rule="NcssCount" ruleset="Design" package="org.springframework.web.socket.config" class="WebSocketNamespaceUtils" method="registerSockJsService" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'registerSockJsService(Element, String, ParserContext, Object)' has a NCSS line count of 74.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-websocket\src\main\java\org\springframework\web\socket\messaging\StompSubProtocolHandler.java">
+<violation beginline="254" endline="254" begincolumn="14" endcolumn="37" rule="NcssCount" ruleset="Design" package="org.springframework.web.socket.messaging" class="StompSubProtocolHandler" method="handleMessageFromClient" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleMessageFromClient(WebSocketSession, WebSocketMessage&lt;?&gt;, MessageChannel)' has a NCSS line count of 82.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-websocket\src\main\java\org\springframework\web\socket\sockjs\support\AbstractSockJsService.java">
+<violation beginline="379" endline="379" begincolumn="20" endcolumn="33" rule="NcssCount" ruleset="Design" package="org.springframework.web.socket.sockjs.support" class="AbstractSockJsService" method="handleRequest" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleRequest(ServerHttpRequest, ServerHttpResponse, String, WebSocketHandler)' has a NCSS line count of 72.
+</violation>
+</file>
+<file name="sources\spring-framework-6.2.16\spring-websocket\src\main\java\org\springframework\web\socket\sockjs\transport\TransportHandlingSockJsService.java">
+<violation beginline="234" endline="234" begincolumn="17" endcolumn="39" rule="NcssCount" ruleset="Design" package="org.springframework.web.socket.sockjs.transport" class="TransportHandlingSockJsService" method="handleTransportRequest" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'handleTransportRequest(ServerHttpRequest, ServerHttpResponse, WebSocketHandler, String, String)' has a NCSS line count of 71.
+</violation>
+</file>
+</pmd>

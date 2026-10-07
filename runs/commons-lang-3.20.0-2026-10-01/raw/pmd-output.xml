@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.27.0" timestamp="2026-10-01T14:26:55.803">
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\ArrayUtils.java">
+<violation beginline="60" endline="60" begincolumn="14" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3" class="ArrayUtils" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'ArrayUtils' has a NCSS line count of 2176 (Highest = 31).
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\JavaVersion.java">
+<violation beginline="219" endline="219" begincolumn="24" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3" class="JavaVersion" method="get" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'get(String)' has a NCSS line count of 67.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\RandomStringUtils.java">
+<violation beginline="255" endline="255" begincolumn="26" endcolumn="32" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3" class="RandomStringUtils" method="random" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'random(int, int, int, boolean, boolean, char[], Random)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\StringUtils.java">
+<violation beginline="125" endline="125" begincolumn="14" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3" class="StringUtils" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The class 'StringUtils' has a NCSS line count of 1780 (Highest = 62).
+</violation>
+<violation beginline="7606" endline="7606" begincolumn="29" endcolumn="40" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3" class="StringUtils" method="splitWorker" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'splitWorker(String, String, int, boolean)' has a NCSS line count of 62.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\builder\ToStringStyle.java">
+<violation beginline="1449" endline="1449" begincolumn="20" endcolumn="34" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.builder" class="ToStringStyle" method="appendInternal" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'appendInternal(StringBuffer, String, Object, boolean)' has a NCSS line count of 77.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\math\NumberUtils.java">
+<violation beginline="323" endline="323" begincolumn="26" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.math" class="NumberUtils" method="createNumber" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'createNumber(String)' has a NCSS line count of 100.
+</violation>
+<violation beginline="555" endline="555" begincolumn="27" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.math" class="NumberUtils" method="isCreatable" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'isCreatable(String)' has a NCSS line count of 68.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\text\StrSubstitutor.java">
+<violation beginline="1104" endline="1104" begincolumn="17" endcolumn="27" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.text" class="StrSubstitutor" method="substitute" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'substitute(StrBuilder, int, int, List&lt;String&gt;)' has a NCSS line count of 85.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DateUtils.java">
+<violation beginline="1107" endline="1107" begincolumn="29" endcolumn="35" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.time" class="DateUtils" method="modify" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'modify(Calendar, int, ModifyType)' has a NCSS line count of 74.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\DurationFormatUtils.java">
+<violation beginline="239" endline="239" begincolumn="19" endcolumn="25" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.time" class="DurationFormatUtils" method="format" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'format(Token[], long, long, long, long, long, long, long, boolean)' has a NCSS line count of 75.
+</violation>
+<violation beginline="529" endline="529" begincolumn="26" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.time" class="DurationFormatUtils" method="formatPeriod" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'formatPeriod(long, long, String, boolean, TimeZone)' has a NCSS line count of 71.
+</violation>
+<violation beginline="680" endline="680" begincolumn="20" endcolumn="24" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.time" class="DurationFormatUtils" method="lexx" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'lexx(String)' has a NCSS line count of 73.
+</violation>
+</file>
+<file name="..\..\commons-lang-3.20.0\src\main\java\org\apache\commons\lang3\time\FastDatePrinter.java">
+<violation beginline="1330" endline="1330" begincolumn="26" endcolumn="38" rule="NcssCount" ruleset="Design" package="org.apache.commons.lang3.time" class="FastDatePrinter" method="parsePattern" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'parsePattern()' has a NCSS line count of 128.
+</violation>
+</file>
+</pmd>

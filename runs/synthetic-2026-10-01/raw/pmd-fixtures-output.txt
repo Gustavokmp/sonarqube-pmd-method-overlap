@@ -1,0 +1,11 @@
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\LongMethodBoundary.java:10:	NcssCount:	The method 'linesTotal70()' has a NCSS line count of 69.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\LongMethodBoundary.java:81:	NcssCount:	The method 'linesTotal74()' has a NCSS line count of 73.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\LongMethodBoundary.java:156:	NcssCount:	The method 'linesTotal75()' has a NCSS line count of 74.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\LongMethodBoundary.java:232:	NcssCount:	The method 'linesTotal76()' has a NCSS line count of 75.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\LongMethodBoundary.java:309:	NcssCount:	The method 'linesTotal80()' has a NCSS line count of 79.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\NcssBoundary.java:130:	NcssCount:	The method 'ncss60()' has a NCSS line count of 60.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\NcssBoundary.java:192:	NcssCount:	The method 'ncss61()' has a NCSS line count of 61.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\NcssBoundary.java:255:	NcssCount:	The method 'ncss62()' has a NCSS line count of 62.
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\ParamListBoundary.java:32:	ExcessiveParameterList:	Avoid long parameter lists (10 parameters - threshold is 10).
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\ParamListBoundary.java:36:	ExcessiveParameterList:	Avoid long parameter lists (11 parameters - threshold is 10).
+c:\Users\gusta\Documents\gustavo\mestrado\tese\exp-mestrado\scripts\fixtures\boundary\ParamListBoundary.java:40:	ExcessiveParameterList:	Avoid long parameter lists (12 parameters - threshold is 10).

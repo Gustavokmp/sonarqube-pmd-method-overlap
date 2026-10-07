@@ -1,0 +1,2 @@
+﻿LONG_METHOD: U=35236 A=101 B=81 sonarPct=0.2866 pmdPct=0.2299 inter=74 sonarOnly=27 pmdOnly=7 union=108 jaccard=0.6852
+LONG_PARAMETER_LIST: U=35236 A=10 B=0 sonarPct=0.0284 pmdPct=0.0000 inter=0 sonarOnly=10 pmdOnly=0 union=10 jaccard=0.0000

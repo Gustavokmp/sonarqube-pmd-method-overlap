@@ -1,0 +1,2 @@
+{"tool":"sonarqube","project":"exp-mestrado-fixtures","smell":"long_method","method_id":"exp-mestrado-fixtures::synthetic::OverloadsAndInnerTypes.java::fixtures.inventory.OverloadsAndInnerTypes::process(int)","raw_alert_count":2,"raw_alert_ids":["sq-issue-AAA","sq-issue-BBB"]}
+{"tool":"pmd","project":"exp-mestrado-fixtures","smell":"long_parameter_list","method_id":"exp-mestrado-fixtures::synthetic::OverloadsAndInnerTypes.java::fixtures.inventory.OverloadsAndInnerTypes.MemberType::memberMethod()","raw_alert_count":1,"raw_alert_ids":["pmd-violation-XYZ"]}

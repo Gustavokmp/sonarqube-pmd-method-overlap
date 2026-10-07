@@ -1,0 +1,18 @@
+﻿=== SonarQube status breakdown ===
+
+Name            Count
+----            -----
+eligible_method   640
+out_of_scope      125
+
+
+
+=== PMD status breakdown ===
+
+Name            Count
+----            -----
+out_of_scope       82
+eligible_method   339
+
+
+
